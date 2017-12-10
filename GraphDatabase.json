@@ -1,0 +1,100 @@
+{
+  "description": "Graph Database",
+  "graphs": [
+ {
+	"id": "G000001",
+	"deg_seq": [2,2,2],
+	"name": "Triangle",
+	"num_vert": 3,
+	"edges": [[1,2],[1,3],[2,3]],
+	"images": [
+		{
+		"title": "Triangle",
+		"description": "Triangle Graph",
+		"src": "G000001.png"
+		}
+	],
+	"links": [
+		{
+			"authors": [
+				{
+					"fi": "E.W.",
+					"fname": "Eric",
+					"lname": "Weisstein",
+					"website": 
+				}
+			],
+			"article": "Triange Graph",
+			"url": "http:\/\/mathworld.wolfram.com\/TriangleGraph.html",
+			"group_author": "Mathword"
+		},
+		{
+			"authors": [],
+			"article": "Triange Graph",
+			"url": "https://en.wikipedia.org/wiki/Triangle_graph",
+			"group_author": "Wikipedia"
+		}
+	],
+	"refs": [
+		{
+			"authors": [
+				{
+					"fi": "J.E",
+					"fname": ,
+					"lname": "Humphreys",
+					"website": 
+				}
+			],
+			"year": 1990,
+			"book": "Reflection Groups and Coxeter Groups",
+			"series": "Cambridge Studies in Advanced Math",
+			"volume": 29,
+			"pages": 34,
+			"publisher": "Cambridge Press",
+			"pub_loc": "Cambridge, Mass.",
+			"doi": 
+		},
+		{
+			"authors": [
+				{
+					"fi": ,
+					"fname": ,
+					"lname": ,
+					"website": 
+				}
+			],
+			"editors": [
+				{
+					"fi": ,
+					"fname": ,
+					"lname": ,
+					"website": 
+				}
+			],
+			"group_author": ,
+			"year": ,
+			"title": ,
+			"book": ,
+			"chapter": ,
+			"article": ,
+			"journal": ,
+			"volume": ,
+			"pages": ,
+			"publisher": ,
+			"pub_loc": ,
+			"url": ,
+			"doi": 
+		}
+	],
+	"comments": [],
+	"contrib": [
+		{
+			"fi": ,
+			"fname": ,
+			"lname": ,
+			"website": 
+		}
+	] 
+}
+  ]
+}
