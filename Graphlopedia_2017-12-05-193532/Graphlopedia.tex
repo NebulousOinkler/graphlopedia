@@ -1,0 +1,62 @@
+%%% Comments, of course these should be listed in id order
+%% watch urls
+%%% find more refs!   Humphrey's page number, Bourbaki?  BB?, West?
+%% Cross refs?
+
+%\documentclass[12pt]{amsart}
+\documentclass{scrartcl}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{url}
+\graphicspath{ {figs/}}
+% \usepackage{listings}
+% \usepackage{etoolbox, listing}
+% \usepackage[T1]{fontenc}
+% \usepackage[english,french]{babel}
+\usepackage{multicol, hyperref}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm, amsfonts, setspace}
+%\doublespacing
+\usepackage[left=1.0in,right = 1.0in,top = 1.0in, bottom = 1.0in]{geometry}
+
+\pagenumbering{gobble}
+
+\newcommand{\graphname}[1]{\newpage \noindent  \textbf{Graphlopedia ID}: #1\\}
+\newcommand{\links}{\noindent \textbf{Links}: }
+\newcommand{\graphtitle}[1]{\medskip \textbf{Title}: #1 \\}
+
+\newcommand{\edges}[1]{\textbf{Edges}: #1 \\}
+\newcommand{\vertices}[1]{\textbf{Vertices}: #1 \\}
+\newcommand{\degrees}[1]{  \textbf{Degree Sequence}: #1 \\}
+
+\newcommand{\comments}{\noindent \textbf{Comments}: }
+\newcommand{\owner}[1]{\textbf{Author(s)}: #1 }
+\newcommand{\refs}{\noindent \textbf{References}: }
+\newcommand{\pictures}[1]{\begin{center}
+\includegraphics[width=4in,height=2in,keepaspectratio]{figs/#1}
+\end{center}
+}
+
+\begin{document}
+\title{\Huge Graphlopedia}
+\subtitle{Washington Experimental Mathematics Laboratory}
+\author{Sara Billey, Kimberly Bautista, Aaron Bode, Riley Casper, Dien Dang, \\Nicholas
+  Farn, Graham Kelley, Sha Lai, Adharsh Ranganathan, \\Michael
+  Trinh, Alexander Tsun, Katrina Warner}
+
+
+\date{\today}
+\maketitle
+
+{\centering
+Welcome to Graphlopedia, a database for graphs! We are a small team of undergraduate students (with mentors Sara Billey and Riley Casper) at the University of Washington. For the last five months we have been building a database of graphs for the use of mathematicians and other graph lovers. We have a limited number of entries right now, but it will soon grow exponentially as we start implementing graph recognition and user input.
+
+
+\textit{Please use "ctrl + F" to search our database. The graphs are ordered by degree sequence. A more involved website is in the works; for now please enjoy our static PDF version}. \par
+}
+
+\input{GraphlopediaSource.tex}
+
+
+\end{document}

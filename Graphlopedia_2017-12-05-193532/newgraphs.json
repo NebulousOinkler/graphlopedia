@@ -1,0 +1,851 @@
+{
+"G000001": {
+ "name": "G000001",
+ "title": "Triangle",
+ "vertices": [1,2,3],
+ "edges": [[1,2],[1,3],[2,3]],
+ "degrees": [2,2,2],
+    "pictures": [ "G000001.png"],
+ "links": ["http:\/\/mathworld.wolfram.com\/TriangleGraph.html", "https://en.wikipedia.org/wiki/Triangle_graph"],
+ "references": ["J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 34."],
+    "comments": ["Complete graph on 3 vertices, $K_3$", "Coxeter graph of type affine $A_2$", "Cycle on 3 vertices, $C_3$" ],
+ "authors": ["Sara Billey"]
+},
+
+"G000002": {
+ "name": "G000002",
+ "title": "2-Path, $P_2$",
+ "vertices": [1,2],
+ "edges": [[1,2]],
+ "degrees": [1,1],
+"pictures": [ "G000002.png"],
+"links": ["https://en.wikipedia.org/wiki/Path_graph"],
+ "references": ["J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 32."],
+ "comments": ["Coxeter graph of type $A_2$"],
+ "authors": ["Sara Billey"]
+},
+
+"G000003": {
+ "name": "G000003",
+ "title": "3-Path, $P_3$",
+ "vertices": [1,2,3],
+ "edges": [[1,2],[1,3]],
+ "degrees": [2,1,1],
+    "pictures": [ "G000003.png"],
+"links": ["https://en.wikipedia.org/wiki/Path_graph"],
+ "references": ["J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 32."],
+ "comments": ["Coxeter graph of type $A_3$"],
+ "authors": ["Sara Billey"]
+},
+
+"G000004": {
+ "name": "G000004",
+ "title": "4-Path, $P_4$",
+ "vertices": [1,2,3,4],
+ "edges": [[1,2],[1,4],[2,3]],
+ "degrees": [2,2,1,1],
+    "pictures": [ "G000004.png"],
+"links": ["https://en.wikipedia.org/wiki/Path_graph"],
+ "references": ["J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 32."],
+ "comments": ["Coxeter graph of type $A_4$"],
+ "authors": ["Sara Billey"]
+},
+
+"G000005": {
+ "name": "G000005",
+ "title": "5-Path, $P_5$",
+ "vertices": [1,2,3,4,5],
+ "edges": [[1,2],[1,5],[2,3],[3,4]],
+ "degrees": [2,2,2,1,1],
+    "pictures": [ "G000005.png"],
+"links": ["https://en.wikipedia.org/wiki/Path_graph"],
+ "references": ["J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 32."],
+ "comments": ["Coxeter graph of type $A_5$"],
+ "authors": ["Sara Billey"]
+},
+
+"G000006": {
+  "name": "G000006",
+  "title": "Claw",
+  "vertices": [1,2,3,4],
+  "edges": [[1,2],[1,3],[1,4]],
+  "degrees": [3,1,1,1],
+ "pictures": [ "G000006.png"],
+"links": ["http://mathworld.wolfram.com/ClawGraph.html"],
+    "references": ["Horton, J. D. and Bouwer, I. Z. Symmetric Y-Graphs and H-Graphs. J. Combin. Th. Ser. B 53, (1991). Page 116.", "Humphreys J., Reflection Groups and Coxeter Groups, Cambridge Studies in Advanced Math, Volume 29, 1990. Page 32.", "Dahlberg, S., Foley, A., and van Willigenburg, S.  Resolving Stanley's e-positivity of claw contractible free graphs. Preprint arXiv:1703.05770, (2017), Page 5.", "Gasharov V., On Stanley's chromatic symmetric function and clawfree graphs, Discrete Math. 205, 229-234 (1999)." ],
+    "comments": ["star graph of type $(1,3)$", "complete bipartite graph $K_{1,3}$", "Coxeter graph of type $D_4$"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000007": {
+  "name": "G000007",
+  "title": "3-Antiprism",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,5],[2,6],[3,4],[3,6],[4,5],[4,6],[5,6]],
+  "degrees": [4,4,4,4,4,4],
+    "pictures": [ "G000007.png"],
+    "links": ["http://mathworld.wolfram.com/AntiprismGraph.html", "https://en.wikipedia.org/wiki/Antiprism_graph"],
+    "references": ["Alekseyev, M.; Michon, G. Making Walks Count: From Silent Circles to Hamiltonian Cycles. eprint arXiv:1602.01396. (2016)"],
+  "comments": ["planar"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000008": {
+  "name": "G000008",
+  "title": "3-Barbell",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[2,5],[2,6],[3,4],[5,6]],
+  "degrees": [3,3,2,2,2,2],
+ "pictures": [ "G000008.png"],
+    "links": ["http://mathworld.wolfram.com/BarbellGraph.html", "https://en.wikipedia.org/wiki/Barbell_graph"],
+  "references": ["Wilf, H. The editor's corner: the white screen problem. Amer. Math. Monthly 96 (1989), no. 8, 704--707. "],
+  "comments": ["planar"],
+  "authors": ["Aaron Bode"]
+},
+
+
+"G000009": {
+  "name": "G000009",
+  "title": "Pappus Graph",
+    "vertices": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+    "edges": [[1, 2], [1, 6], [1, 7], [2, 3], [2, 8], [3, 4], [3, 9], [4, 5], [4, 10], [5, 6], [5, 11], [6, 12], [7, 14], [7, 18], [8, 13], [8, 15], [9, 14], [9, 16], [10, 15], [10, 17], [11, 16], [11, 18], [12, 13], [12, 17], [13, 16], [14, 17], [15, 18]],
+    "degrees": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+    "pictures": [ "G000009.png", "extra/G000009.png"],
+    "links": ["https://en.wikipedia.org/wiki/Pappus_graph", "http://mathworld.wolfram.com/PappusGraph.html"],
+  "references": ["Coxeter, H. S. M. Self-Dual Configurations and Regular Graphs. Bull. Amer. Math. Soc. 56, 413-455, 1950. Page 434."],
+  "comments": ["The Pappus graph is formed as the Levi graph of the Pappus configuration."],
+  "authors": ["Sara Billey"]
+},
+    
+"G000010": {
+  "name": "G000010",
+  "title": "8-Vertex Threshold Graph",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[2,3],[2,4],[2,5],[2,6]],
+  "degrees": [7,5,2,2,2,2,1,1],
+ "pictures": [ "G000010.png"],
+"links": ["https://en.wikipedia.org/wiki/Threshold_graph"],
+  "references": ["Heggernes, P.; Kratsch, D. Linear-time certifying recognition algorithms and forbidden induced subgraphs, Nordic Journal of Computing, 14 (1-2): 87-108 (2008)"],
+  "comments": ["threshold, planar, and trivially perfect."],
+  "authors": ["Katrina Warner"]
+},
+
+    
+"G000011": {
+  "name": "G000011",
+  "title": "6-Vertex Circular-Arc",
+  "vertices": [1,2,3,4,5,6],
+  "edges":  [[1,2],[1,3],[1,4],[2,3],[2,5],[4,6],[5,6]],
+  "degrees": [3,3,2,2,2,2],
+ "pictures": [ "G000011.png"],
+"links": ["https://en.wikipedia.org/wiki/Circular-arc_graph"],
+  "references": [],
+  "comments":  ["circular-arc graph", "intersection graph", "arc"],
+  "authors":["Katrina Warner"]
+},
+
+
+"G000012": {
+  "name": "G000012",
+  "title": "4-Cycle",
+  "vertices": [1,2,3,4],
+  "edges":  [[1,2],[1,4],[2,3],[3,4]],
+  "degrees": [2,2,2,2],
+  "pictures": ["G000012.png"],
+  "links":["https://en.wikipedia.org/wiki/Trivially_perfect_graph"],
+  "references": ["Martin Charles Golumbic, Trivially perfect graphs, Discrete Mathematics, Volume 24, Issue 1, 1978, Pages 105-107."],
+  "comments": ["minimal non-trivially-perfect graph"],
+  "authors": ["Katrina Warner, Sara Billey"]
+},
+
+"G000013": {
+  "name": "G000013",
+  "title": "ladder graph",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1,2],[1,4],[1,6],[2,3],[2,8],[3,4],[3,7],[4,5],[5,6],[7,8]],
+  "degrees": [3,3,3,3,2,2,2,2],
+ "pictures": [ "G000013.png"],
+"links": ["https://en.wikipedia.org/wiki/Ladder_graph"],
+  "references": [],
+  "comments": ["ladder graph"],
+  "authors": ["Katrina Warner"]
+},
+
+"G000014": {
+  "name": "G000014",
+  "title": "Truncated Icosahedral Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21, 22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
+  "edges": [[1,2],[1,6],[2,3],[2,9],[3,4],[3,12],[4,5],[4,15],[5,1],[5,18],[6,7],[6,20],[7,8],[7,21],[8,9],[8,24],[9,10],[10,11],[10,25],[11,12],[11,28],[12,13],[13,14],[13,29],[14,15],[14,32],[15,16],[16,17],[16,33],[17,18],[17,36],[18,19],[19,20],[19,37],[20,40],[21,22],[21,40],[22,23],[22,41],[23,24],[23,43],[24,25],[25,26],[26,27],[26,44],[27,28],[27,46],[28,29],[29,30],[30,31],[30,47],[31,32],[31,49],[32,33],[33,34],[34,35],[34,50],[35,36],[35,52],[36,37],[37,38],[38,39],[38,53],[39,40],[39,55],[41,42],[41,55],[42,43],[42,56],[43,44],[44,45],[45,46],[45,57],[46,47],[47,48],[48,49],[48,58],[49,50],[50,51],[51,52],[51,59],[52,53],[53,54],[54,55],[54,60],[56,57],[56,60],[57,58],[58,59],[59,60]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000014.png"],
+"links":["http://m.wolframalpha.com/input/?i=buckyball+graph"],
+  "references": ["\"Truncated Icosahedral Graph.\" Buckyball Graph -- from Wolfram MathWorld, $m.wolframalpha.com/input/?i=buckyball+graph$."],
+  "comments": ["buckyball graph","cayley","60-fullerene"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000015": {
+  "name": "G000015",
+  "title": "$F_2$",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,4],[2,6],[3,4],[3,6],[4,5]],
+  "degrees": [4,4,4,4,2,2],
+ "pictures": [ "G000015.png", "extra/G000015.png"],
+"links":[],
+  "references": ["N. Chiarelli, Martin Milanic, A threshold approach to connected domination, University of Primorska, 2016. Page 4."],
+  "comments": ["canonical example of a graph with an Eulerian cycle" ],
+  "authors": ["Aaron Bode"]
+},
+
+"G000016": {
+  "name": "G000016",
+  "title": "5-Wheel Graph",
+  "vertices": [1,2,3,4,5],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,5],[3,4],[4,5]],
+  "degrees": [4, 3, 3, 3, 3],
+  "pictures": [ "G000016.png"],
+  "links":["http://mathworld.wolfram.com/WheelGraph.html", "https://en.wikipedia.org/wiki/Wheel_graph"],
+  "references": [],
+  "comments": ["wheel graph $W_5$"],
+  "authors": ["Katrina Warner"]
+},
+
+
+"G000017": {
+  "name": "G000017",
+  "title": "Total Domishold Raft",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12],
+"edges": [[1,4],[1,5],[1,9],[2,3],[2,6],[2,10],[3,7],[3,11],[4,8],[4,12],[5,6],[7,8]],
+  "degrees": [3,3,3,3,2,2,2,2,1,1,1,1],
+ "pictures": [ "G000017.png", "extra/G000017.png"],
+"links":["arxiv.org/pdf/1610.06539v1.pdf"],
+  "references": ["Chiarelli, Nina, and Martin Milanic. \"A Threshold Approach to Connected Domination.\" 21 Oct. 2016, arxiv.org/pdf/1610.06539v1.pdf."],
+  "comments": ["A total domishold graph that is not connected-domishold"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000018": {
+  "name": "G000018",
+  "title": "$G_k$ $K_{2,6}$ free",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+  "edges": [[1,5],[1,6],[1,7],[1,8],[1,9],[1,10],[1,11],[1,12],[1,13],[2,12],[2,13],[2,14],[2,15],[3,11],[3,12],[3,14],[3,17],[4,5],[4,13],[4,15],[4,17],[5,6],[6,7],[7,8],[8,9],[9,10],[10,11],[14,16],[15,16],[16,17]],
+    "degrees": [9, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+ "pictures": [ "G000018.png"],
+"links":[],
+  "references": ["Ellingham, M. N. et al. \"Hamiltonicity of Planar Graphs with a Forbidden Minor.\" ArXiv, ArXiv, 20 Oct. 2016, arxiv.org/pdf/1610.06558v1.pdf."],
+  "comments": ["3-connected", "$G_k$ where $k\\geq 1$"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000019": {
+  "name": "G000019",
+  "title": "hexahedral graph 3",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,6],[2,3],[2,4],[2,5],[3,5],[4,6],[5,6]],
+  "degrees": [4,4,3,3,3,3],
+ "pictures": [ "G000019.png"],
+"links":["http://mathworld.wolfram.com/PolyhedralGraph.html"],
+  "references": ["\"Polyhedral Graph.\" Polyhedral Graph -- from Wolfram MathWorld, $mathworld.wolfram.com/PolyhedralGraph.html$."],
+  "comments": ["polyhedral graph"],
+  "authors": ["Aaron Bode"]
+},
+
+
+"G000020": {
+  "name": "G000020",
+  "title": "Herschel Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11],
+  "edges": [[1,4],[1,6],[1,7],[1,11],[2,6],[2,7],[2,8],[2,9],[3,4],[3,8],[3,9],[3,11],[4,5],[5,6],[5,8],[7,10],[9,10],[10,11]],
+    "degrees": [4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3], 
+ "pictures": [ "G000020.png"],
+"links":["http://mathworld.wolfram.com/HerschelGraph.html"],
+  "references": ["\"Herschel Graph.\" Herschel Graph -- from Wolfram MathWorld, $mathworld.wolfram.com/HerschelGraph.html$."],
+  "comments": ["smallest nonhamiltonion polyhedral graph","planar"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000021": {
+  "name": "G000021",
+  "title": "3-regular graph 1",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,5],[2,4],[2,6],[3,4],[3,5],[4,6],[5,6]],
+  "degrees": [3,3,3,3,3,3],
+ "pictures": [ "G000021.png"],
+"links":[],
+  "references": ["Kong, Qi, and Ligong Wang. \"The Signless Laplacian Spectral Radius of Subgraphs of Regular Graphs.\" https://Arxiv.org/Pdf/1610.08855v1.Pdf, ArXiv, 28 Oct. 2016, arxiv.org/pdf/1610.08855v1.pdf."],
+  "comments": [],
+  "authors": ["Aaron Bode"]
+},
+
+"G000022": {
+  "name": "G000022",
+  "title": "3-regular graph 2",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1,2],[1,3],[1,5],[2,4],[2,6],[3,4],[3,7],[4,8],[5,6],[5,7],[6,8],[7,8]],
+  "degrees": [3,3,3,3,3,3,3,3],
+ "pictures": [ "G000022.png"],
+"links":[],
+  "references": ["Q. Kong, L. Wang,The signless Laplacian spectral radius of subgraphs of regular graphs, Department of Applied Mathematics, School of Science, Northwestern Polytechnical University, 2016."],
+  "comments": [],
+  "authors": ["Aaron Bode"]
+},
+
+"G000023": {
+  "name": "G000023",
+  "title": "5-Cycle, $C_5$",
+  "vertices": [1,2,3,4,5],
+  "edges": [[1,2],[1,5],[2,3],[3,4],[4,5]],
+  "degrees": [2,2,2,2,2],
+ "pictures": [ "G000023.png", "extra/G000023.png"],
+"links":["https://en.wikipedia.org/wiki/Cycle_graph"],
+  "references": [],
+  "comments": [],
+  "authors": ["Zachary Hamaker"]
+},
+
+"G000024": {
+  "name": "G000024",
+  "title": "Isobutane Molecule",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,5],[1,6],[1,7],[2,3],[2,4],[2,14],[3,8],[3,9],[3,10],[4,11],[4,12],[4,13]],
+    "degrees": [4, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+ "pictures": [ "G000024.png"],
+"links": ["http://mathworld.wolfram.com/Tree.html","https://pubchem.ncbi.nlm.nih.gov/compound/isobutane"],
+  "references": [" Tree -- from Wolfram MathWorld, mathworld.wolfram.com/Tree.html."],
+    "comments": ["connected forest","tree graph", "Error in pubchem link, I don't see the graph there, but it is about isobutane mol--SB"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000025": {
+  "name": "G000025",
+  "title": "Projective embedding of the positive roots of type $A_3$",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,4],[2,6],[3,5],[3,6]],
+  "degrees": [4,3,3,2,2,2],
+ "pictures": [ "G000025.png"],
+"links":[],
+  "references": ["S. Billey and A. Postnikov. Smoothness of Schubert varieties via patterns in root subsystems.  Advances in Applied Mathematics, vol 34 (2005).  Page 453."],
+  "comments": ["Vertices are the intersections of the lines generated by the positive roots with a certain affine hyperplane.   Lines represent two dimensional spans."],
+  "authors": ["Aaron Bode"]
+},
+
+"G000026": {
+  "name": "G000026",
+  "title": "Heawood Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,10],[1,14],[2,3],[2,7],[3,4],[3,12],[4,5],[4,9],[5,6],[5,14],[6,7],[6,11],[7,8],[8,9],[8,13],[9,10],[10,11],[11,12],[12,13],[13,14]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000026.png"],
+"links":["http://mathworld.wolfram.com/HeawoodGraph.html"],
+  "references": ["Y. Zhao, Extremal regular graphs: independent sets and graph homomorphisms, 2016."],
+  "comments": ["cage graph","non-planar"],
+  "authors": ["Aaron Bode"]
+},
+
+
+
+"G000027": {
+  "name": "G000027",
+  "title": "Desargues' Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "edges": [[1,2],[1,6],[1,20],[2,3],[2,17],[3,4],[3,12],[4,5],[4,15],[5,6],[5,10],[6,7],[7,8],[7,16],[8,9],[8,19],[9,10],[9,14],[10,11],[11,12],[11,20],[12,13],[13,14],[13,18],[14,15],[15,16],[16,17],[17,18],[18,19],[19,20]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000027.png", "extra/G000027.png"],
+"links":["http://mathworld.wolfram.com/DesarguesGraph.html","https://en.wikipedia.org/wiki/Desargues_graph"],
+  "references": ["Kagno, I. N. Desargues' and Pappus' Graphs and Their Groups. Amer. J. Math. 69, 859-863, 1947."],
+  "comments": ["cubic-symmetric graph", "Desargues graph is the first of four graphs depicted on the cover of Harary (1994)."],
+  "authors": ["Aaron Bode"]
+},
+
+"G000028": {
+  "name": "G000028",
+  "title": "Figure 2(a)",
+  "vertices": [1,2,3,4,5,6,7],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[2,3],[2,7],[3,4],[4,5],[5,6],[6,7]],
+  "degrees": [6,3,3,3,3,3,3],
+ "pictures": [ "G000028.png"],
+"links":["https://arxiv.org/pdf/math/0608624.pdf"],
+  "references": ["W. Wood. Combinatorial Modulus and Types of Graphs, 2006."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000029": {
+  "name": "G000029",
+  "title": "Figure 2(b)",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,5],[1,6],[2,3],[2,4],[2,5],[3,4],[3,6]],
+  "degrees": [4,4,4,2,2,2],
+ "pictures": [ "G000029.png", "extra/G000029.png"],
+"links":["https://arxiv.org/pdf/math/0608624.pdf],"],
+  "references": ["W. Wood. Combinatorial Modulus and Types of Graphs, 2006."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+
+
+"G000030": {
+  "name": "G000030",
+  "title": "threshold graph 2",
+  "vertices": [1,2,3,4,5,6,7,8,9,10],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9],[1,10],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[2,9],[2,10],[3,4],[3,5],[3,6],[3,7],[4,5],[4,6],[4,7],[5,6],[5,7]],
+  "degrees": [9,9,6,6,6,5,5,2,2,2],
+ "pictures": [ "G000030.png"],
+"links":[],
+  "references": ["A. Banerjee1, R. Mehatari. On the normalized spectrum of threshold graphs, Indian Institute of Science Education and Research Kolkata, 2016."],
+  "comments": ["threshold graph with binary string 0011100011"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000031": {
+  "name": "G000031",
+  "title": "Plabic Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "edges": [[1,2],[1,5],[1,7],[2,3],[2,8],[3,4],[3,10],[4,5],[4,11],[5,6],[6,7],[6,12],[7,8],[8,9],[9,10],[9,12],[10,11],[11,12]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000031.png"],
+"links":["https://arxiv.org/pdf/1106.0023.pdf"],
+  "references": ["Y. Kodoma, L. Williams. KP Solutions and Total Positivity for the Grassmannian, 2014."],
+  "comments": ["plabic","nonplanar","undirected"],
+  "authors": ["Katrina Warner"]
+},
+
+"G000032": {
+  "name": "G000032",
+  "title": "Figure 8",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "edges": [[1,2],[1,3],[1,10],[2,8],[2,15],[3,6],[3,11],[4,7],[4,9],[4,14],[5,6],[5,7],[5,17],[6,16],[7,18],[8,9],[8,20],[9,19],[10,11],[10,15],[11,12],[12,13],[12,17],[13,14],[13,16],[14,15],[16,20],[17,18],[18,19],[19,20]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000032.png"],
+"links":["https://arxiv.org/pdf/1106.0023.pdf"],
+  "references": ["Y. Kodoma, L. Williams. KP Solutions and Total Positivity for the Grassmannian, 2014."],
+  "comments": ["soliton","plabic"],
+  "authors": ["Katrina Warner"]
+},
+
+"G000033": {
+  "name": "G000033",
+  "title": "Figure 5",
+  "vertices": [1,2,3,4,5],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,4],[2,5],[3,4],[3,5],[4,5]],
+  "degrees": [4,4,4,4,4],
+ "pictures": [ "G000033.png"],
+"links":["https://arxiv.org/pdf/1106.0023.pdf"],
+  "references": ["M. Han. Cosmological Constant in LQG Vertex Amplitude, 2011."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+    
+"G000034": {
+  "name": "G000034",
+  "title": "6-cycle",
+  "vertices": [1,2,3,4,5,6], 
+  "edges": [[1,2],[1,6],[2,3],[3,4],[4,5],[5,6]],
+  "degrees": [2,2,2,2,2,2],
+ "pictures": [],
+"links":["https://en.wikipedia.org/wiki/Cycle_graph"],
+  "references": [],
+    "comments": [],
+  "authors": ["Sara Billey"]
+},
+
+
+"G000035": {
+  "name": "G000035",
+"title": "Complete Bipartite Graph $K_{2,3}$",
+  "vertices": [1,2,3,4,5],
+    "edges": [[1,3],[1,4],[1,5],[2,3],[2,4],[2,5]], 
+  "degrees": [3,3,2,2,2],
+ "pictures": [ "G000035.png"],
+"links":[],
+"references": ["H.L. Bodlaender. A partial k-arboretum of graphs with bounded treewidth, Theoretical Computer Science 209. (1998). Page. 34", "M.M. Syslo, Characterisations of outerplanar graphs, Discrete Math. 26 (1979) 47-53."],
+  "comments": ["The class of outerplanar graphs is closed under minor taking: its obstruction set consists of the graphs $K_{2,3}$ and $K_4$.  "],
+  "authors": ["Katrina Warner"]
+},
+
+"G000036": {
+  "name": "G000036",
+  "title": "Guanine Structure",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11],
+  "edges": [[1,2],[1,5],[1,9],[2,3],[2,7],[3,6],[3,10],[4,5],[4,6],[4,11],[7,8],[8,9]],
+  "degrees": [3,3,3,3,2,2,2,2,2,1,1],
+ "pictures": [ "G000036.png"],
+"links":["https://arxiv.org/pdf/cs/0703132.pdf"],
+  "references": ["L. Peshkin. Center for Biomedical Informatics, Harvard Medical School.\"Structure Induction by Lossless Graph Compression\" (2007)."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000037": {
+  "name": "G000037",
+  "title": "Sugar",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11],
+  "edges": [[1,4],[1,9],[1,10],[1,11],[2,3],[2,4],[2,5],[3,7],[3,8],[5,6],[6,7]],
+  "degrees": [4,3,3,2,2,2,2,1,1,1,1],
+ "pictures": [ "G000037.png", "extra/G000037.png"],
+"links":["https://arxiv.org/pdf/cs/0703132.pdf"],
+  "references": ["L. Peshkin. Structure Induction by Lossless Graph Compression, (2007)."],
+  "comments": ["The compound object induced by the Graphitour algorithm, which corresponds to the backbone of the molecule: phosphate and sugar.", "Error in GRAPH: G000037 degree seq [4, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1] should be [4, 3, 3, 2, 1, 0, 1, 1, 1, 1, 1]  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] [[1, 4], [1, 9], [1, 10], [1, 11], [2, 3], [2, 4], [2, 5], [3, 7], [3, 8]]"],
+  "authors": ["Katrina Warner"]
+},
+
+"G000038": {
+  "name": "G000038",
+  "title": "Original Factor Graph",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,7],[1,14],[2,4],[2,12],[3,4],[3,8],[3,10],[4,9],[5,6],[5,9],[5,11],[6,12],[6,13],[7,8],[10,11]],
+  "degrees": [3,3,3,3,3,3,2,2,2,2,2,2,1,1],
+ "pictures": [ "G000038.png"],
+"links":["https://arxiv.org/pdf/cs/0612030.pdf"],
+  "references": ["J. Mooji, B. Kappen. \"Loop Corrections for Approximate Inference\" (2006)"],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000039": {
+  "name": "G000039",
+  "title": "Cavity Graph of i",
+  "vertices": [1,2,3,4,5,6,7,8,9,10],
+  "edges": [[1,2],[1,8],[1,9],[2,3],[3,10],[4,5],[4,7],[5,6]],
+  "degrees": [3,2,2,2,2,1,1,1,1,1],
+ "pictures": [ "G000039.png"],
+"links":["https://arxiv.org/pdf/cs/0612030.pdf"],
+  "references": ["J. Mooji, B. Kappen. \"Loop Corrections for Approximate Inference\" (2006)"],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000040": {
+  "name": "G000040",
+  "title": "Fig.1",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[4,5],[4,6],[5,6]],
+  "degrees": [5,5,5,5,5,5],
+ "pictures": [ "G000040.png"],
+"links":["https://arxiv.org/pdf/hep-th/0611042.pdf"],
+  "references": ["A. Baratin, L. Friedel. Perimeter Institute for Theoretical Physics. \"Hidden Quantum Gravity in 4d Feynman Diagrams\" (2007)"],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000041": {
+  "name": "G000041",
+  "title": "K5 Graph",
+  "vertices": [1,2,3,4,5],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,4],[2,5],[3,4],[3,5],[4,5]],
+  "degrees": [4,4,4,4,4],
+ "pictures": [ "G000041.png"],
+"links":["https://arxiv.org/pdf/hep-th/0611042.pdf"],
+  "references": ["A. Baratin, L. Friedel. Perimeter Institute for Theoretical Physics. \"Hidden Quantum Gravity in 4d Feynman Diagrams\" (2007)"],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000042": {
+  "name": "G000042",
+  "title": "Figure 1",
+  "vertices": [1,2,3,4],
+  "edges": [[1,2],[1,3],[1,4],[2,3]],
+  "degrees": [3,2,2,1],
+ "pictures": [ "G000042.png"],
+"links":["https://arxiv.org/pdf/1304.0478.pdf"],
+  "references": ["Z. Cinkir. \"Explicit Computation of Certain Arakelov-Green Functions\" (2013)."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000043": {
+  "name": "G000043",
+  "title": "Tetrahedral Graph",
+  "vertices": [1,2,3,4],
+  "edges": [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]],
+  "degrees": [3,3,3,3],
+ "pictures": [ "G000043.png"],
+"links":["https://arxiv.org/pdf/1304.0478.pdf"],
+  "references": ["Z. Cinkir. \"Explicit Computation of Certain Arakelov-Green Functions\" (2013)."],
+  "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000044": {
+  "name": "G000044",
+  "title": "The staircase of order eight, St8",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1, 2], [1, 3], [1, 4], [2, 3], [2, 8], [3, 5], [4, 5], [4, 6], [5, 7], [6, 7], [6, 8], [7, 8]],
+  "degrees": [3,3,3,3,3,3,3,3],
+ "pictures": [ "G000044.png", "extra/G000044.png"],
+"links":["https://arxiv.org/pdf/1611.07899.pdf"],
+  "references": ["N. Kothari. \"Generating Near-Bipartite Bricks\" arXiv (2016). Page 4."],
+    "comments": [],
+  "authors": ["Katrina Warner"]
+},
+
+"G000045": {
+  "name": "G000045",
+  "title": "Fano Graph",
+    "vertices": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "edges":  [[1, 2], [1, 6], [1, 14], [2, 3], [2, 11], [3, 4], [3, 8], [4, 5], [4, 13], [5, 6], [5, 10], [6, 7], [7, 8], [7, 12], [8, 9], [9, 10], [9, 14], [10, 11], [11, 12], [12, 13], [13, 14]],
+    "degrees": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], 
+ "pictures": [ "G000045.png", "extra/G000045.png"],
+    "links": ["https://commons.wikimedia.org/wiki/File:Fano_plane-Levi_graph.svg", "https://en.wikipedia.org/wiki/Levi_graph", "https://en.wikipedia.org/wiki/Fano_plane"],
+  "references": ["Coxeter, H. S. M. Self-Dual Configurations and Regular Graphs. Bull. Amer. Math. Soc. 56, 413-455, 1950. Page 424."],
+  "comments": ["The Fano graph is formed as the Levi graph of the Fano plane."],
+  "authors": ["Sara Billey"]
+},
+
+    
+"G000046": {
+  "name": "G000046",
+  "title": "Complete Bipartite $K_5$",
+  "vertices": [1,2,3,4,5],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[2,3],[2,4],[2,5],[3,4],[3,5],[4,5]],
+  "degrees": [4,4,4,4,4],
+ "pictures": [ "G000046.png"],
+"links":["https://en.wikipedia.org/wiki/Planar_graph"],
+  "references": [],
+  "comments": ["Nonplanar"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000047": {
+  "name": "G000047",
+  "title": "Complete Bipartite $K_{3,3}$",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,4],[1,5],[1,6],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6]],
+  "degrees": [3,3,3,3,3,3],
+ "pictures": [ "G000047.png"],
+"links":["https://en.wikipedia.org/wiki/Planar_graph", "http://mathworld.wolfram.com/NonplanarGraph.html"],
+  "references": [],
+  "comments": ["Nonplanar"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000048": {
+  "name": "G000048",
+  "title": "Petersen Graph 1",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,8],[2,3],[2,5],[2,7],[3,4],[3,6],[4,5],[4,7],[5,6],[6,8],[7,8]],
+  "degrees": [5,4,4,4,4,3,3,3],
+ "pictures": [ "G000048.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000049": {
+  "name": "G000049",
+  "title": "Petersen Graph 2",
+  "vertices": [1,2,3,4,5,6,7],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[4,7],[5,7],[6,7]],
+  "degrees": [5,5,5,4,4,4,3],
+ "pictures": [ "G000049.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000050": {
+  "name": "G000050",
+  "title": "Petersen Graph 3",
+  "vertices": [1,2,3,4,5,6,7,8,9],
+  "edges": [[1,2],[1,3],[1,4],[1,7],[2,3],[2,5],[2,8],[3,6],[3,9],[4,5],[4,9],[5,6],[6,7],[7,8],[8,9]],
+  "degrees": [4,4,4,3,3,3,3,3,3],
+ "pictures": [ "G000050.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000051": {
+  "name": "G000051",
+  "title": "Petersen Graph 4",
+  "vertices": [1,2,3,4,5,6,7,8,9,10],
+  "edges": [[1,2],[1,5],[1,7],[2,3],[2,8],[3,4],[3,9],[4,5],[4,10],[5,6],[6,8],[6,9],[7,9],[7,10],[8,10]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000051.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": ["Y. Zhao, Extremal regular graphs: independent sets and graph homomorphisms, 2016."],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000052": {
+  "name": "G000052",
+  "title": "Petersen Graph 5",
+  "vertices": [1,2,3,4,5,6,7],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[2,3],[2,5],[2,7],[3,4],[3,6],[4,5],[4,7],[5,6],[6,7]],
+  "degrees": [6,4,4,4,4,4,4],
+ "pictures": [ "G000052.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000053": {
+  "name": "G000053",
+  "title": "Petersen Graph 6",
+  "vertices": [1,2,3,4,5,6],
+  "edges": [[1,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[4,5],[4,6],[5,6]],
+  "degrees": [5,5,5,5,5,5],
+ "pictures": [ "G000053.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000054": {
+  "name": "G000054",
+  "title": "Petersen Graph 7",
+  "vertices": [1,2,3,4,5,6,7,8],
+  "edges": [[1,2],[1,4],[1,6],[1,7],[2,3],[2,5],[2,8],[3,4],[3,6],[3,7],[4,5],[4,8],[5,6],[5,7],[6,8]],
+  "degrees": [4,4,4,4,4,4,3,3],
+ "pictures": [ "G000054.png"],
+"links": ["https://en.wikipedia.org/wiki/Petersen_family"],
+  "references": [],
+  "comments": ["Petersen graph"],
+  "authors": ["Aaron Bode"]
+},
+
+"G000055": {
+  "name": "G000055",
+  "title": "Starfish",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "edges": [[1,6],[1,7],[1,20],[2,8],[2,9],[2,10],[3,11],[3,12],[3,13],[4,14],[4,15],[4,16],[5,17],[5,18],[5,19],[6,9],[6,18],[7,10],[7,19],[8,11],[8,20],[9,12],[10,13],[11,14],[12,15],[13,16],[14,17],[15,18],[16,19],[17,20]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000055.png"],
+"links": [],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995."],
+  "comments": ["Let G be theta-connected, and not contain Petersen. If G contains Starfish then G is isomorphisc to Starfish."],
+  "authors":["Aaron Bode"]
+},
+
+"G000056": {
+  "name": "G000056",
+  "title": "Jaws",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "edges": [[1,2],[1,6],[1,13],[2,3],[2,9],[3,4],[3,8],[4,5],[4,10],[5,6],[5,11],[6,7],[7,8],[7,12],[8,20],[9,10],[9,14],[10,16],[11,12],[11,17],[12,19],[13,14],[13,18],[14,15],[15,16],[15,20],[16,17],[17,18],[18,19],[19,20]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000056.png"],
+"links": [],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995."],
+  "comments": ["Let G be theta-connected, and not contain Petersen. If G contains Jaws then G is doublecross."],
+  "authors":["Aaron Bode"]
+},
+
+"G000057": {
+  "name": "G000057",
+  "title": "Triplex",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "edges": [[1,2],[1,9],[1,10],[2,3],[2,11],[3,4],[3,12],[4,5],[4,10],[5,6],[5,11],[6,7],[6,12],[7,8],[7,10],[8,9],[8,11],[9,12]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000057.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995."],
+  "comments": ["Petersen, Triplex and Box are the only graphs minimal with the property of being dodecahedrally-connected and having crossing number > 1."],
+  "authors":["Aaron Bode"]
+},
+
+"G000058": {
+  "name": "G000058",
+  "title": "Box",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,4],[1,10],[2,3],[2,13],[3,6],[3,7],[4,5],[4,12],[5,6],[5,13],[6,9],[7,8],[7,10],[8,9],[8,14],[9,12],[10,11],[11,12],[11,14],[13,14]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000058.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995."],
+  "comments": ["Petersen, Triplex and Box are the only graphs minimal with the property of being dodecahedrally-connected and having crossing number > 1."],
+  "authors":["Aaron Bode"]
+},
+
+
+"G000059": {
+  "name": "G000059",
+  "title": "Antibox",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,4],[1,5],[2,3],[2,6],[3,4],[3,7],[4,8],[5,9],[5,12],[6,10],[6,13],[7,10],[7,14],[8,11],[8,12],[9,11],[9,13],[10,12],[11,14],[13,14]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000059.png", "extra/G000059.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995. Page 36."],
+  "comments": [],
+  "authors":["Aaron Bode"]
+},
+
+"G000060": {
+  "name": "G000060",
+  "title": "Window",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "edges": [[1,2],[1,4],[1,5],[2,3],[2,6],[3,4],[3,7],[4,8],[5,9],[5,12],[6,9],[6,10],[7,10],[7,11],[8,11],[8,12],[9,11],[10,12]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000060.png", "extra/G000060.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995. Page 36."],
+  "comments": [],
+  "authors":["Aaron Bode"]
+},
+
+"G000061": {
+  "name": "G000061",
+  "title": "Drape",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,4],[1,5],[2,3],[2,6],[3,4],[3,7],[4,8],[5,12],[5,13],[6,9],[6,10],[7,10],[7,11],[8,11],[8,14],[9,11],[9,13],[10,12],[12,14],[13,14]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000061.png", "extra/G000061.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995. Page 36."],
+  "comments": [],
+  "authors":["Aaron Bode"]
+},
+
+
+
+"G000062": {
+  "name": "G000062",
+  "title": "Superbox",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+    "edges": [[1,2],[1,5],[1,11],[2,3],[2,12],[3,4],[3,8],[4,5],[4,13],[5,14],[6,7],[6,10], [6,11], [7,8],[7,12],[8,9],[9,10],[9,13],[10,14],[11,15],[12,15],[13,16],[14,16],[15,16]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+  "pictures": [ "G000062.png", "extra/G000062.png"],
+  "links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995. Page 39."],
+  "comments": ["Related to Box, G000058"],
+  "authors":["Aaron Bode"]
+},
+
+
+"G000063": {
+  "name": "G000063",
+    "title": "Drum",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "edges": [[1,2],[1,3],[1,4],[2,5],[2,6],[3,7],[3,11],[4,8],[4,12],[5,9],[5,11],[6,10],[6,12],[7,8],[7,14],[8,13],[9,10],[9,14],[10,13],[11,13],[12,14]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000063.png", "extra/G000063.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995. Page 41."],
+  "comments": [],    
+  "authors":["Aaron Bode"]
+},
+
+    
+"G000064": {
+  "name": "G000064",
+  "title": "Twinplex",
+  "vertices": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "edges": [[1,2],[1,8],[1,9],[2,3],[2,11],[3,4],[3,10],[4,5],[4,12],[5,6],[5,9],[6,7],[6,11],[7,8],[7,10],[8,12],[9,10],[11,12]],
+  "degrees": [3,3,3,3,3,3,3,3,3,3,3,3],
+ "pictures": [ "G000064.png"],
+"links": ["https://arxiv.org/pdf/1403.2118.pdf"],
+  "references": ["N. Robertson, P. Seymour, R. Thomas, Excluded Minors in Cubic Graphs, 1995."],
+  "comments": [],
+  "authors":["Aaron Bode"]
+}
+
+
+}
