@@ -5,3 +5,4 @@
   * use pandoc-citeproc --bib2json to convert the bib files into the appropriate JSON
   * Why use JSON instead of bib?:
     - JSON can easly be made into an SQL database for website in future.
+    - https://sqlizer.io/#/
