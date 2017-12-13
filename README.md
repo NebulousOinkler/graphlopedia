@@ -6,3 +6,5 @@
   * Why use JSON instead of bib?:
     - JSON can easly be made into an SQL database for website in future.
     - https://sqlizer.io/#/
+
+* refs can be made by altering https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1=1019150 by changing the s1 variable to the appropriate MathSciNet ID number. 
