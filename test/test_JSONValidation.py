@@ -2,12 +2,13 @@ import json
 from jsonschema import validate
 import collections as col
 import unittest
+import os
 
 class JSONValidation(unittest.TestCase):
     def setUp(self):
-        with open('../graphs.schema.json') as schemaJSON:
+        with open(os.path.join(os.getcwd(), 'graphlopedia_src/graphs.schema.json')) as schemaJSON:
             self.schema = json.load(schemaJSON)
-        with open('../graphs.json') as docJSON:
+        with open(os.path.join(os.getcwd(),'graphlopedia_src/graphs.json')) as docJSON:
             self.doc = json.load(docJSON)
         self.graphs = iter(self.doc["graphs"])
     
