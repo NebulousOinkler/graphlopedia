@@ -21,7 +21,7 @@
 					"fi": "E.W.",
 					"fname": "Eric",
 					"lname": "Weisstein",
-					"website": 
+					"website": "http://www.ericweisstein.com/"
 				}
 			],
 			"article": "Triangle Graph",
@@ -35,9 +35,9 @@
 			"group_author": "Wikipedia"
 		}
 	],
-	"refs": [
+	"refs": [""
 	],
-	"comments": [],
+	"comments": [""],
 	"contrib": [
 		{
 			"fi": "S",
