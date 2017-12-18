@@ -5,8 +5,10 @@ import unittest
 
 class JSONValidation(unittest.TestCase):
     def setUp(self):
-        self.schema = json.load(open('../../graphs.schema.json'))
-        self.doc = json.load(open('../../graphs.json'))
+        with open('../../graphs.schema.json') as schemaJSON:
+            self.schema = json.load(schemaJSON)
+        with open('../../graphs.json') as docJSON:
+            self.doc = json.load(docJSON)
         self.graphs = iter(self.doc["graphs"])
     
     def test_JSONValidation(self):
@@ -30,7 +32,6 @@ class JSONValidation(unittest.TestCase):
                 self.derivedDegreeSequence = sorted(list(col.Counter(self.edgeEntryList).values()), reverse=True)
                 self.providedDegreeSequence = sorted(graph["deg_seq"], reverse=True)
                 self.assertEqual(self.derivedDegreeSequence, self.providedDegreeSequence, "Degree Sequence Provided Does Not Match Edge List")
-                
         
 if __name__ == "__main__":
     unittest.main()
