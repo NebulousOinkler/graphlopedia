@@ -160,7 +160,7 @@
       "refs": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/citation"
+          "type": "string"
         }
       },
       "comments": {
