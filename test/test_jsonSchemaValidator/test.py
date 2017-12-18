@@ -5,8 +5,8 @@ import unittest
 
 class JSONValidation(unittest.TestCase):
     def setUp(self):
-        self.schema = json.load(open('graphs.schema.json'))
-        self.doc = json.load(open('graphs.json'))
+        self.schema = json.load(open('../../graphs.schema.json'))
+        self.doc = json.load(open('../../graphs.json'))
         self.graphs = iter(self.doc["graphs"])
     
     def test_JSONValidation(self):
