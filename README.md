@@ -16,3 +16,6 @@ curl -s "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibt
 ~~~~
 
 note: pbcopy should be chaged to clip or xclip
+
+UPDATE:
+Test case added to check JSON file
