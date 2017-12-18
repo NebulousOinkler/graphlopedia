@@ -32,6 +32,3 @@ class JSONValidation(unittest.TestCase):
                 self.derivedDegreeSequence = sorted(list(col.Counter(self.edgeEntryList).values()), reverse=True)
                 self.providedDegreeSequence = sorted(graph["deg_seq"], reverse=True)
                 self.assertEqual(self.derivedDegreeSequence, self.providedDegreeSequence, "Degree Sequence Provided Does Not Match Edge List")
-        
-if __name__ == "__main__":
-    unittest.main()
