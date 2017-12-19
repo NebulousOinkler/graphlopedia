@@ -1,4 +1,5 @@
 import json
+import urllib.request
 
 def writeSara2JSON(sfile, tfile):
 	sara = json.load(sfile)
@@ -57,6 +58,14 @@ def writeSara2JSON(sfile, tfile):
 	graph.write(']')
 
 	graph.write('}')
+
+def bibrefs(option):
+	trigger = option[:2]
+	if trigger == 'MR':
+		mr_num = option[2:]
+		url = "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
+		page = urllib.request.urlopen(url)
+		rawHTML = page.read()
 
 if __name__ == '__main__':
 	with open('./Graphlopedia_2017-12-05-193532/newgraphs.json') as sfile:
