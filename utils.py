@@ -14,7 +14,7 @@ def writeSara2JSON(sfile, tfile):
 		graph.write(f'\"deg_seq\": {entry["degrees"]},')
 		graph.write(f'\"name\": \"{entry["title"]}\",')
 		graph.write(f'\"num_vert\": {len(entry["vertices"])},')
-		graph.write(f'\"edges\": \"{entry["edges"]}\",')
+		graph.write(f'\"edges\": {entry["edges"]},')
 		
 		graph.write(f'\"images\": [')
 		for image in entry["pictures"]:
