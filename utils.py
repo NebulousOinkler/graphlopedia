@@ -60,5 +60,5 @@ def writeSara2JSON(sfile, tfile):
 
 if __name__ == '__main__':
 	with open('./Graphlopedia_2017-12-05-193532/newgraphs.json') as sfile:
-		with open('./graphsConverted.json', 'w') as tfile:
+		with open('./graphs.json', 'w') as tfile:
 			writeSara2JSON(sfile,tfile)
