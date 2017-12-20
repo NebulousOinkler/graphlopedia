@@ -42,7 +42,8 @@ def writeSara2JSON(sfile, tfile):
 		graph.write('\"refs\": [')
 		sara_refs = entry["references"]
 		entry_name = entry["name"]
-		ref_list = autoBibRefs(sara_refs, entry_name)
+		entry_title = entry["title"]
+		ref_list = autoBibRefs(sara_refs, entry_name, entry_title)
 		graph.write(ref_list)
 #		graph.write('{}')
 		graph.write('],')
@@ -66,12 +67,12 @@ def writeSara2JSON(sfile, tfile):
 
 	graph.write('}')
 
-def autoBibRefs(sara_refs, entry_name):
+def autoBibRefs(sara_refs, entry_name, entry_title):
 	counter = 0
 	output = ""
 	os.system('cls')
 	while True:
-		print(entry_name)
+		print("{}: {}".format(entry_name, entry_title))
 		for x in sara_refs:
 			print('** ' + x)
 		print('\n\n# of Refs: {}'.format(len(sara_refs)))
