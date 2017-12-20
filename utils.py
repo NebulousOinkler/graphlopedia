@@ -39,7 +39,8 @@ def writeSara2JSON(sfile, tfile):
 		graph.write('],')
 
 		graph.write(f'\"refs\": [')
-		graph.write('\"\"')
+		ref_list = autoBibRefs(entry["references"])
+		graph.write(ref_list)
 		graph.write('],')
 
 		graph.write(f'\"comments\": {json.dumps(entry["comments"])},')
@@ -61,10 +62,19 @@ def writeSara2JSON(sfile, tfile):
 
 	graph.write('}')
 
-def autoBibRefs():
-	option = input("Reference Code: ")
-	trigger = option[:2]
-	while trigger != 'nx':
+def autoBibRefs(sara_refs):
+	counter = 0
+	output = ""
+	while True:
+		print("\n"*50)
+		for x in sara_refs:
+			print('** ' + x)
+		print(f'\n\n# of Refs: {len(sara_refs)}')
+		print(f'# inputted: {counter}')
+
+		option = input("Reference Code: ")
+		trigger = option[:2]
+
 		if trigger == 'MR':
 			mr_num = option[2:]
 			url = "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
@@ -73,13 +83,23 @@ def autoBibRefs():
 			bib = re.compile('<pre>(.*?)</pre>', re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
 			bib_dict = bibtexparser.loads(bib).entries[0]
 			bibjson = json.dumps(bib_dict)
-			output = bibjson
-		else:
+			output = output+bibjson+','
+			counter = counter+1
+		elif trigger == 'mn':
 			print("Manual Mode Active:")
 			man_input = input("Multiline Key-Values:\n")
 			man_dict = dict(x.split() for x in man_input.splitlines())
 			manjson = json.dumps(man_dict)
-			output = manjson
+			output = otput+manjson+','
+			counter = counter+1
+		elif trigger == 'nx':
+			if not output:
+				output = '{}'
+			else:
+				output = output[:-1]
+			break
+		else:
+			print("Invalid Code")
 	return output
 
 
