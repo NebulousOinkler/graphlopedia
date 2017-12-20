@@ -39,8 +39,9 @@ def writeSara2JSON(sfile, tfile):
 		graph.write('],')
 
 		graph.write('\"refs\": [')
-#		sara_refs = entry["references"][:]
-#		ref_list = autoBibRefs(sara_refs)
+#		sara_refs = entry["references"]
+#		entry_name = entry["name"]
+#		ref_list = autoBibRefs(sara_refs, entry_name)
 #		graph.write(ref_list)
 		graph.write('{}')
 		graph.write('],')
@@ -64,11 +65,12 @@ def writeSara2JSON(sfile, tfile):
 
 	graph.write('}')
 
-def autoBibRefs(sara_refs):
+def autoBibRefs(sara_refs, entry_name):
 	counter = 0
 	output = ""
 	while True:
 		print("\n"*50)
+		print(entry_name)
 		for x in sara_refs:
 			print('** ' + x)
 		print('\n\n# of Refs: {}'.format(len(sara_refs)))
@@ -79,7 +81,7 @@ def autoBibRefs(sara_refs):
 
 		if trigger == 'MR':
 			mr_num = option[2:]
-			url = "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
+			url = "https://mathscinet-ams-org.offcampus.lib.washington.edu/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
 			page = urllib.request.urlopen(url)
 			rawHTML = page.read()
 			bib = re.compile('<pre>(.*?)</pre>', re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
