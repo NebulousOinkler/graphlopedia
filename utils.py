@@ -39,8 +39,10 @@ def writeSara2JSON(sfile, tfile):
 		graph.write('],')
 
 		graph.write(f'\"refs\": [')
-		ref_list = autoBibRefs(entry["references"])
-		graph.write(ref_list)
+#		sara_refs = entry["references"][:]
+#		ref_list = autoBibRefs(sara_refs)
+#		graph.write(ref_list)
+		graph.write('\{\}')
 		graph.write('],')
 
 		graph.write(f'\"comments\": {json.dumps(entry["comments"])},')
