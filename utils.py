@@ -40,11 +40,11 @@ def writeSara2JSON(sfile, tfile):
 		graph.write('],')
 
 		graph.write('\"refs\": [')
-#		sara_refs = entry["references"]
-#		entry_name = entry["name"]
-#		ref_list = autoBibRefs(sara_refs, entry_name)
-#		graph.write(ref_list)
-		graph.write('{}')
+		sara_refs = entry["references"]
+		entry_name = entry["name"]
+		ref_list = autoBibRefs(sara_refs, entry_name)
+		graph.write(ref_list)
+#		graph.write('{}')
 		graph.write('],')
 
 		graph.write('\"comments\": {},'.format(json.dumps(entry["comments"])))
@@ -84,7 +84,7 @@ def autoBibRefs(sara_refs, entry_name):
 			mr_num = input('MR Number: ')
 			url = "https://mathscinet-ams-org.offcampus.lib.washington.edu/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
 			page = urllib.request.urlopen(url)
-			rawHTML = page.read()
+			rawHTML = page.read().decode()
 			bib = re.compile('<pre>(.*?)</pre>', re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
 			bib_dict = bibtexparser.loads(bib).entries[0]
 			bibjson = json.dumps(bib_dict)
@@ -97,14 +97,16 @@ def autoBibRefs(sara_refs, entry_name):
 			manjson = json.dumps(man_dict)
 			output = otput+manjson+','
 			counter = counter+1
-		elif: trigger == 'ax':
+		elif trigger == 'ax':
 			print('ArXiV Mode Active:')
 			ar_num = input('ArXiV Number ')
 			url = "https://arxiv2bibtex.org/?q="+ar_num
 			page = urllib.request.urlopen(url)
-			rawHTML = page.read()
-			div1 = re.compile("<div id='biblatex'>(.*?)</div>", re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
-			bib = re.compile(">(.*?)</textarea>", re.DOTALL |  re.IGNORECASE).findall(div1)[0]
+			rawHTML = page.read().decode()
+			div1 = re.compile("<div id='bibtex'>(.*?)</div>", re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
+			div2 = div1.splitlines()
+			bib = "\n".join(div2[3:-1])
+			bib = bib[:-1] + "\n}"
 			bib_dict = bibtexparser.loads(bib).entries[0]
 			bibjson = json.dumps(bib_dict)
 			output = output+bibjson+','
@@ -117,6 +119,9 @@ def autoBibRefs(sara_refs, entry_name):
 			break
 		else:
 			print("Invalid Code")
+		print("\n")
+		print("="*60)
+		print("\n")
 	return output
 
 
