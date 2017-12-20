@@ -1,5 +1,7 @@
 import json
 import urllib.request
+import re
+import bibtexparser
 
 def writeSara2JSON(sfile, tfile):
 	sara = json.load(sfile)
@@ -59,13 +61,29 @@ def writeSara2JSON(sfile, tfile):
 
 	graph.write('}')
 
-def bibrefs(option):
+def autoBibRefs():
+	option = input("Reference Code: ")
 	trigger = option[:2]
-	if trigger == 'MR':
-		mr_num = option[2:]
-		url = "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
-		page = urllib.request.urlopen(url)
-		rawHTML = page.read()
+	while trigger != 'nx':
+		if trigger == 'MR':
+			mr_num = option[2:]
+			url = "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
+			page = urllib.request.urlopen(url)
+			rawHTML = page.read()
+			bib = re.compile('<pre>(.*?)</pre>', re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
+			bib_dict = bibtexparser.loads(bib).entries[0]
+			bibjson = json.dumps(bib_dict)
+			output = bibjson
+		else:
+			print("Manual Mode Active:")
+			man_input = input("Multiline Key-Values:\n")
+			man_dict = dict(x.split() for x in man_input.splitlines())
+			manjson = json.dumps(man_dict)
+			output = manjson
+	return output
+
+
+
 
 if __name__ == '__main__':
 	with open('./Graphlopedia_2017-12-05-193532/newgraphs.json') as sfile:
