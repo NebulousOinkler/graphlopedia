@@ -2,6 +2,7 @@ import json
 import urllib.request
 import re
 import bibtexparser
+import os
 
 def writeSara2JSON(sfile, tfile):
 	sara = json.load(sfile)
@@ -68,19 +69,19 @@ def writeSara2JSON(sfile, tfile):
 def autoBibRefs(sara_refs, entry_name):
 	counter = 0
 	output = ""
+	os.system('cls')
 	while True:
-		print("\n"*50)
 		print(entry_name)
 		for x in sara_refs:
 			print('** ' + x)
 		print('\n\n# of Refs: {}'.format(len(sara_refs)))
 		print('# inputted: {}'.format(counter))
 
-		option = input("Reference Code: ")
-		trigger = option[:2]
+		trigger = input("Reference Code: ")
 
-		if trigger == 'MR':
-			mr_num = option[2:]
+		if trigger == 'mr':
+			print('MathSciNet Mode Active:')
+			mr_num = input('MR Number: ')
 			url = "https://mathscinet-ams-org.offcampus.lib.washington.edu/mathscinet/search/publications.html?fmt=bibtex&pg1=MR&s1="+mr_num
 			page = urllib.request.urlopen(url)
 			rawHTML = page.read()
@@ -95,6 +96,18 @@ def autoBibRefs(sara_refs, entry_name):
 			man_dict = dict(x.split() for x in man_input.splitlines())
 			manjson = json.dumps(man_dict)
 			output = otput+manjson+','
+			counter = counter+1
+		elif: trigger == 'ax':
+			print('ArXiV Mode Active:')
+			ar_num = input('ArXiV Number ')
+			url = "https://arxiv2bibtex.org/?q="+ar_num
+			page = urllib.request.urlopen(url)
+			rawHTML = page.read()
+			div1 = re.compile("<div id='biblatex'>(.*?)</div>", re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
+			bib = re.compile(">(.*?)</textarea>", re.DOTALL |  re.IGNORECASE).findall(div1)[0]
+			bib_dict = bibtexparser.loads(bib).entries[0]
+			bibjson = json.dumps(bib_dict)
+			output = output+bibjson+','
 			counter = counter+1
 		elif trigger == 'nx':
 			if not output:
