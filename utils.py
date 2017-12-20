@@ -13,46 +13,46 @@ def writeSara2JSON(sfile, tfile):
 	for entry in vals:
 		graph.write('{')
 
-		graph.write(f'\"id\": \"{entry["name"]}\",')
-		graph.write(f'\"deg_seq\": {entry["degrees"]},')
-		graph.write(f'\"name\": \"{entry["title"]}\",')
-		graph.write(f'\"num_vert\": {len(entry["vertices"])},')
-		graph.write(f'\"edges\": {entry["edges"]},')
+		graph.write('\"id\": \"{}\",'.format(entry["name"]))
+		graph.write('\"deg_seq\": {},'.format(entry["degrees"]))
+		graph.write('\"name\": \"{}\",'.format(entry["title"]))
+		graph.write('\"num_vert\": {},'.format(len(entry["vertices"])))
+		graph.write('\"edges\": {},'.format(entry["edges"]))
 		
-		graph.write(f'\"images\": [')
+		graph.write('\"images\": [')
 		for image in entry["pictures"]:
 			graph.write('{')
-			graph.write(f'\"title\": \"{entry["title"]}\",')
-			graph.write(f'\"src\": \"{image}\"')
+			graph.write('\"title\": \"{}\",'.format(entry["title"]))
+			graph.write('\"src\": \"{}\"'.format(image))
 			graph.write('}')
 			if image != entry["pictures"][-1]:
 				graph.write(',')
 		graph.write('],')
 
-		graph.write(f'\"links\": [')
+		graph.write('\"links\": [')
 		for link in entry["links"]:
 			graph.write('{')
-			graph.write(f'\"url\": \"{link}\"')
+			graph.write('\"url\": \"{}\"'.format(link))
 			graph.write('}')
 			if link != entry["links"][-1]:
 				graph.write(',')
 		graph.write('],')
 
-		graph.write(f'\"refs\": [')
+		graph.write('\"refs\": [')
 #		sara_refs = entry["references"][:]
 #		ref_list = autoBibRefs(sara_refs)
 #		graph.write(ref_list)
 		graph.write('{}')
 		graph.write('],')
 
-		graph.write(f'\"comments\": {json.dumps(entry["comments"])},')
+		graph.write('\"comments\": {},'.format(json.dumps(entry["comments"])))
 
-		graph.write(f'\"contrib\": [')
+		graph.write('\"contrib\": [')
 		for author in entry["authors"]:
 			graph.write('{')
-			graph.write(f'\"fi\": \"{author[0]}\",')
-			graph.write(f'\"fname\": \"{author.rsplit(" ",1)[0]}\",')
-			graph.write(f'\"lname\": \"{author.rsplit(" ",1)[1]}\"')
+			graph.write('\"fi\": \"{}\",'.format(author[0]))
+			graph.write('\"fname\": \"{}\",'.format(author.rsplit(" ",1)[0]))
+			graph.write('\"lname\": \"{}\"'.format(author.rsplit(" ",1)[1]))
 			graph.write('}')
 			if author != entry["authors"][-1]:
 				graph.write(',')
@@ -71,8 +71,8 @@ def autoBibRefs(sara_refs):
 		print("\n"*50)
 		for x in sara_refs:
 			print('** ' + x)
-		print(f'\n\n# of Refs: {len(sara_refs)}')
-		print(f'# inputted: {counter}')
+		print('\n\n# of Refs: {}'.format(len(sara_refs)))
+		print('# inputted: {}'.format(counter))
 
 		option = input("Reference Code: ")
 		trigger = option[:2]
