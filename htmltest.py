@@ -14,4 +14,4 @@ output = output[0]
 bib = bibtexparser.loads(output).entries[0]
 bib['author'] = bib['author'] + ' and ' + 'Bob, Barker S.'
 print(bib)
-print(json.dumps(bib))
+print(type(json.dumps(bib)))
