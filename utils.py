@@ -4,7 +4,6 @@ import re
 import bibtexparser
 import os
 from collections import OrderedDict
-import Image
 
 def writeSara2JSON(sfile, tfile):
 	sara = json.load(sfile, object_pairs_hook=OrderedDict)
@@ -28,8 +27,6 @@ def writeSara2JSON(sfile, tfile):
 			graph.write('\"title\": \"{}\",'.format(entry["title"]))
 			graph.write('\"src\": \"{}\"'.format(image))
 			graph.write('}')
-			with Image.open('Graphlopedia_2017-12-05-193532/figs/'+image) as pic:
-				pic.show()
 			if image != entry["pictures"][-1]:
 				graph.write(',')
 		graph.write('],')
@@ -92,6 +89,9 @@ def autoBibRefs(sara_refs, entry_name, entry_title):
 			rawHTML = page.read().decode()
 			bib = re.compile('<pre>(.*?)</pre>', re.DOTALL |  re.IGNORECASE).findall(rawHTML)[0]
 			bib_dict = bibtexparser.loads(bib).entries[0]
+			t = input('pages: ')
+			if t:
+				bib_dict['pages'] = t
 			bibjson = json.dumps(bib_dict)
 			output = output+bibjson+','
 			counter = counter+1
