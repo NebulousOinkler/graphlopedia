@@ -3,9 +3,10 @@ import urllib.request
 import re
 import bibtexparser
 import os
+from collections import OrderedDict
 
 def writeSara2JSON(sfile, tfile):
-	sara = json.load(sfile)
+	sara = json.load(sfile, object_pairs_hook=OrderedDict)
 	graph = tfile
 	vals = list(sara.values())
 	graph.write('{')
