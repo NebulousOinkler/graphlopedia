@@ -113,6 +113,8 @@ def autoBibRefs(sara_refs, entry_name, entry_title):
 			bib = "\n".join(div2[3:-1])
 			bib = bib[:-1] + "\n}"
 			bib_dict = bibtexparser.loads(bib).entries[0]
+			if t:
+				bib_dict['pages'] = t
 			bibjson = json.dumps(bib_dict)
 			output = output+bibjson+','
 			counter = counter+1
