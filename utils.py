@@ -7,6 +7,60 @@ from collections import OrderedDict
 
 def writeSara2JSON(sfile, tfile):
 	sara = json.load(sfile, object_pairs_hook=OrderedDict)
+	graph_dict = {}
+	graph_dict["description"] = "Graph Database"
+	graphs = []
+	vals = list(sara.values())
+	for entry in vals:
+		graph = {}
+		graph["id"] = entry["name"]
+		graph["deg_seq"] = entry["degrees"]
+		graph["name"] = entry["title"]
+		graph["num_vert"] = len(entry["vertices"])
+		graph["edges"] = entry["edges"]
+		
+		images = []
+		for pic in entry["pictures"]:
+			img = {}
+			img["title"] = entry["title"]
+			img["src"] = pic
+			images.append(img)
+		graph["images"] = images
+		
+		links = []
+		for orig_lnk in entry["links"]:
+			lnk = {}
+			lnk["url"] = orig_lnk
+			links.append(lnk)
+		graph["links"] = links
+
+		refs = []
+		for orig_ref in entry["references"]:
+			ref = {}
+			refs.append(ref)
+		graph["refs"] = refs
+
+		graph["comments"] = entry["comments"]
+
+		contrib = []
+		for author in entry["authors"]:
+			ctrb = {}
+			split_name = author.rsplit(" ",1)
+			ctrb["fi"] = author[0]
+			ctrb["fname"] = split_name[0]
+			ctrb["lname"] = split_name[1]
+			contrib.append(ctrb)
+		graph["contrib"] = contrib
+
+		graphs.append(graph)
+
+	graph_dict["graphs"] = graphs
+	json.dump(graph_dict, tfile)
+
+
+
+def OLD_writeSara2JSON(sfile, tfile):
+	sara = json.load(sfile, object_pairs_hook=OrderedDict)
 	graph = tfile
 	vals = list(sara.values())
 	graph.write('{')
@@ -134,7 +188,7 @@ def autoBibRefs(sara_refs, entry_name, entry_title):
 
 
 
-if __name__ == '__main__':
-	with open('./Graphlopedia_2017-12-05-193532/newgraphs.json') as sfile:
-		with open('./graphs.json', 'w') as tfile:
-			writeSara2JSON(sfile,tfile)
+#if __name__ == '__main__':
+#	with open('./Graphlopedia_2017-12-05-193532/newgraphs.json') as sfile:
+#		with open('./graphs.json', 'w') as tfile:
+#			writeSara2JSON(sfile,tfile)
