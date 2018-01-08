@@ -1,5 +1,8 @@
 # graphlopedia
-## Updates and Edits:
+## Purpose
+Create and maintain a database of graphs and networks with mathematical relevance. This database is a *fingerprint database* as defined by Billey and Tenner in <a href="https://sites.math.washington.edu/~billey/papers/fingerprints.pdf"> Fingerprint Databases for Theorems </a>
+
+### Updates and Edits:
 * References should be given as a bibtex string for now
 * Later goal will be to integrate it as a JSON object, however, this isn't the first priority
   * use pandoc-citeproc --bib2json to convert the bib files into the appropriate JSON
@@ -16,3 +19,10 @@ curl -s "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibt
 ~~~~
 
 note: pbcopy should be chaged to clip or xclip
+
+UPDATE:
+Test case added to check JSON file
+utils added to convert old JSON format to new structure
+
+More updates AGAIN whee tests
+Hello!

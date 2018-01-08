@@ -3,7 +3,7 @@
   "title": "Graphlopedia JSON Schema",
   "description": "Details V1.0 Schema design for Graphlopedia, written by Sharat Chandra",
   "definitions": {
-    "author": {
+    "author_struct": {
       "type": "object",
       "properties": {
         "fi": {
@@ -46,16 +46,25 @@
     "citation": {
       "type": "object",
       "properties": {
+        "ENTRYTYPE": {
+          "type": "string"
+        },
+        "ID": {
+          "type": "string"
+        },
         "authors": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/author"
+            "$ref": "#/definitions/author_struct"
           }
+        },
+        "author": {
+          "type": "string"
         },
         "editors": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/author"
+            "$ref": "#/definitions/author_struct"
           }
         },
         "group_author": {
@@ -72,6 +81,15 @@
         },
         "journal": {
           "type": "string"
+        },
+        "fjournal": {
+          "type": "string"
+        },
+        "number": {
+          "type": [
+            "number",
+            "string"
+          ]
         },
         "book": {
           "type": "string"
@@ -103,9 +121,21 @@
         "publisher": {
           "type": "string"
         },
-        "doi": {
+        "link": {
           "type": "string",
           "format": "uri"
+        },
+        "issn": {
+          "type": "string"
+        },
+        "mrclass": {
+          "type": "string"
+        },
+        "mrnumber": {
+          "type": "string"
+        },
+        "mrreviewer": {
+          "type": "string"
         },
         "url": {
           "type": "string",
@@ -172,7 +202,7 @@
       "contrib": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/author"
+          "$ref": "#/definitions/author_struct"
         }
       }
     },
