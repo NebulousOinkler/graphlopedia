@@ -128,6 +128,9 @@
         "issn": {
           "type": "string"
         },
+        "isbn": {
+          "type": "string"
+        },
         "mrclass": {
           "type": "string"
         },
