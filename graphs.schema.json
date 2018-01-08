@@ -134,6 +134,9 @@
         "mrnumber": {
           "type": "string"
         },
+        "mrreviewer": {
+          "type": "string"
+        },
         "url": {
           "type": "string",
           "format": "uri"
