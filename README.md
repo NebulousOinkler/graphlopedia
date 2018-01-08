@@ -21,8 +21,5 @@ curl -s "https://mathscinet.ams.org/mathscinet/search/publications.html?fmt=bibt
 note: pbcopy should be chaged to clip or xclip
 
 UPDATE:
-Test case added to check JSON file
-utils added to convert old JSON format to new structure
 
-More updates AGAIN whee tests
-Hello!
+There is a GUI now to add and remove references. The GUI is horribly designed, but it somehow works. Don't judge please.
