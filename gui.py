@@ -35,7 +35,7 @@ class App:
 		self.textbox = Frame(self.text_frame)
 		self.textbox.grid(row=1,column=1)
 		self.scroll = Scrollbar(self.textbox)
-		self.tbox = Text(self.textbox, height=20, width=30)
+		self.tbox = Text(self.textbox, height=30, width=50)
 		self.tbox.pack(side=LEFT, fill=Y)
 		self.scroll.pack(side=RIGHT,fill=Y)
 		self.scroll.config(command=self.tbox.yview)
@@ -56,6 +56,7 @@ class App:
 	def fill_info(self, G):
 		self.header.destroy()
 		self.ref_frame.destroy()
+		self.tbox.delete(1.0, END)
 
 		self.header = Frame(self.filler)
 		self.header.grid(row=1,column=1)
