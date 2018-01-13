@@ -49,7 +49,7 @@ class GraphDB:
 \\usepackage{url}
 \\usepackage{enumitem}
 \\usepackage{graphicx}
-\\graphicspath{ {figs/} }
+\\graphicspath{ {Graphlopedia_2017-12-05-193532/figs/} }
 
 \\renewcommand{\\refname}[1]{#1}
 \\renewcommand\\bibsection[1]{\\subsubsection*{\\refname{#1}}}
