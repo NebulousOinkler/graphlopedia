@@ -92,10 +92,11 @@ class App:
 
 	def save_contents(self, G):
 		contents = self.tbox.get(1.0, END)
-		if contents:
+		if contents != "\n":
 			bib_dict = bibtexparser.loads(contents).entries[0]
 			G["refs"].append(bib_dict)
 			self.fill_info(G)
+		G["refs"][:] = [x for x in G["refs"] if x != {}]
 
 	def next_graph(self):
 		self.g_index += 1
