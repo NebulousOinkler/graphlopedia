@@ -31,7 +31,7 @@ class AMSRefsWriter(BibTexWriter):
 
 class GraphDB:
     _writer = AMSRefsWriter()
-    _begin_minipage = "\\begin{minipage}[t]{.5\\textwidth}\n" + "\\vspace{0pt}"
+    _begin_minipage = "\\begin{minipage}[t]{.5\\textwidth}"
     _end_minipage = "\\end{minipage}"
     _begin_itemize = "\\begin{itemize}\n"
     _end_itemize = "\\end{itemize}"
@@ -96,7 +96,6 @@ class GraphDB:
                 link["ID"] = graph["id"] + "L" + str(lnk_num)
             links_bib = BibDatabase()
             links_bib.entries = graph["links"]
-            print(links_bib.entries)
             LINKS = "\\bibdiv{links}\n \\vspace{-1.5ex \\@plus -.2ex}\n" + self._begin_biblist + btx.dumps(links_bib,self._writer) + self._end_biblist
         else:
             LINKS = "\\bibdiv{links}\n \\vspace{-1.5ex \\@plus -.2ex}\n"
@@ -114,11 +113,10 @@ class GraphDB:
         #end minipage
 
         #minipage
-        print(graph["images"])
         IMAGE = "\\centering\n" + "\\includegraphics[width=\\textwidth, height=6cm,keepaspectratio]{{{}}}".format(graph["images"][0]["src"])
         #end minipage
 
-        return "\n".join([ID, NAME, self._begin_minipage, DEG_SEQ, VERT, EDGES, LINKS, REFS, COMMENTS, CONTRIB, self._end_minipage, self._begin_minipage, IMAGE, self._end_minipage, "\\newpage"])
+        return "\n".join([ID, NAME, self._begin_minipage + "\n\\vspace{0em}", DEG_SEQ, VERT, EDGES, LINKS, REFS, COMMENTS, CONTRIB, self._end_minipage, self._begin_minipage + "\n\\vspace{0pt}", IMAGE, self._end_minipage, "\\newpage"])
 
     def build_latex(self, filename):
         with open(filename, 'w') as tfile:
@@ -134,7 +132,7 @@ if __name__ == "__main__":
         graph_json = json.load(sfile)
         gdb = GraphDB(graph_json)
 
-    gdb.build_latex('yum.tex')
+    gdb.build_latex('graphlopedia.tex')
 
 
 
