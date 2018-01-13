@@ -31,7 +31,8 @@ class AMSRefsWriter(BibTexWriter):
 
 class GraphDB:
     _writer = AMSRefsWriter()
-    _begin_minipage = "\\begin{minipage}[t]{.5\\textwidth}"
+    _begin_minipage_left = "\\begin{minipage}[t][.9\\textheight]{.5\\textwidth}\n" + "\\vspace*{\\fill}"
+    _begin_minipage_right = "\\begin{minipage}[t]{.5\\textwidth}\n" + "\\vspace{0pt}"
     _end_minipage = "\\end{minipage}"
     _begin_itemize = "\\begin{itemize}\n"
     _end_itemize = "\\end{itemize}"
@@ -116,7 +117,7 @@ class GraphDB:
         IMAGE = "\\centering\n" + "\\includegraphics[width=\\textwidth, height=6cm,keepaspectratio]{{{}}}".format(graph["images"][0]["src"])
         #end minipage
 
-        return "\n".join([ID, NAME, self._begin_minipage + "\n\\vspace{0em}", DEG_SEQ, VERT, EDGES, LINKS, REFS, COMMENTS, CONTRIB, self._end_minipage, self._begin_minipage + "\n\\vspace{0pt}", IMAGE, self._end_minipage, "\\newpage"])
+        return "\n".join([ID, NAME, self._begin_minipage_left, DEG_SEQ, VERT, EDGES, LINKS, REFS, COMMENTS, CONTRIB, self._end_minipage, self._begin_minipage_right, IMAGE, self._end_minipage, "\\newpage"])
 
     def build_latex(self, filename):
         with open(filename, 'w') as tfile:
