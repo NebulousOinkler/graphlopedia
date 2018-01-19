@@ -79,7 +79,7 @@ class GraphDB:
         self.graphs = graph_json["graphs"]
         self.description = graph_json["description"]
 
-    def get_json(self):
+    def get_pyjson(self):
         return self._graph_json
 
     def _gen_tex(self, graph):
