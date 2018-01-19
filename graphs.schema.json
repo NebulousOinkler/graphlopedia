@@ -109,6 +109,9 @@
         "series": {
           "type": "string"
         },
+        "note": {
+          "type": "string"
+        },
         "pages": {
           "type": [
             "number",
