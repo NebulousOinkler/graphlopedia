@@ -150,6 +150,33 @@
           "link": "https://doi.org/10.1017/CBO9780511623646",
           "ENTRYTYPE": "book",
           "ID": "MR1066460"
+        },
+        {
+          "author": "Broersma, H. J. and Hoede, C.",
+          "title": "Path graphs",
+          "journal": "Journal of Graph Theory",
+          "volume": "13",
+          "number": "4",
+          "publisher": "Wiley Subscription Services, Inc., A Wiley Company",
+          "issn": "1097-0118",
+          "link": "http://dx.doi.org/10.1002/jgt.3190130406",
+          "doi": "10.1002/jgt.3190130406",
+          "pages": "427--444",
+          "year": "1989",
+          "ENTRYTYPE": "article",
+          "ID": "JGT:JGT3190130406"
+        },
+        {
+          "title": "A fast path planning by path graph optimization",
+          "author": "Hwang, Joo Young and Kim, Jun Song and Lim, Sang Seok and Park, Kyu Ho",
+          "journal": "IEEE Transactions on systems, man, and cybernetics-part a: systems and humans",
+          "volume": "33",
+          "number": "1",
+          "pages": "121--129",
+          "year": "2003",
+          "publisher": "IEEE",
+          "ENTRYTYPE": "article",
+          "ID": "hwang2003fast"
         }
       ],
       "comments": [
@@ -209,6 +236,39 @@
           "link": "https://doi.org/10.1017/CBO9780511623646",
           "ENTRYTYPE": "book",
           "ID": "MR1066460"
+        },
+        {
+          "title": "Nonexistence of triples of nonisomorphic connected graphs with isomorphic connected $ P\\_3 $-graphs",
+          "author": "Li, Xueliang and Liu, Yan",
+          "journal": "the electronic journal of combinatorics",
+          "volume": "15",
+          "number": "1",
+          "pages": "R31",
+          "year": "2008",
+          "ENTRYTYPE": "article",
+          "ID": "li2008nonexistence"
+        },
+        {
+          "title": "Path Graphs Versus Line Graphs-A Survey [J]",
+          "author": "Yan, LI Xue-liang LIU",
+          "journal": "Chinese Journal of Engineering Mathematics",
+          "volume": "5",
+          "pages": "004",
+          "year": "2007",
+          "ENTRYTYPE": "article",
+          "ID": "yan2007path"
+        },
+        {
+          "title": "Geodetic Number versus Hull Number in P\\_3-Convexity",
+          "author": "Centeno, Carmen C and Penso, Lucia Draque and Rautenbach, Dieter and Pereira de S{\\'a}, VG",
+          "journal": "SIAM Journal on Discrete Mathematics",
+          "volume": "27",
+          "number": "2",
+          "pages": "717--731",
+          "year": "2013",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "centeno2013geodetic"
         }
       ],
       "comments": [
@@ -273,6 +333,41 @@
           "link": "https://doi.org/10.1017/CBO9780511623646",
           "ENTRYTYPE": "book",
           "ID": "MR1066460"
+        },
+        {
+          "title": "Coloring with no $2 $-Colored $ P\\_4 $'s",
+          "author": "Albertson, Michael O and Chappell, Glenn G and Kierstead, Hal A and K{\\\"u}ndgen, Andr{\\'e} and Ramamurthi, Radhika",
+          "journal": "the electronic journal of combinatorics",
+          "volume": "11",
+          "number": "1",
+          "pages": "R26",
+          "year": "2004",
+          "ENTRYTYPE": "article",
+          "ID": "albertson2004coloring"
+        },
+        {
+          "title": "Recognizing P\\_4-Sparse Graphs in Linear Time",
+          "author": "Jamison, Beverly and Olariu, Stephan",
+          "journal": "SIAM Journal on Computing",
+          "volume": "21",
+          "number": "2",
+          "pages": "381--406",
+          "year": "1992",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "jamison1992recognizing"
+        },
+        {
+          "title": "Reconstruction conjecture for graphs with restrictions for 4-vertex paths",
+          "author": "Skums, Pavel Valentinovich and Tyshkevich, Regina Iosifovna",
+          "journal": "Diskretnyi Analiz i Issledovanie Operatsii",
+          "volume": "16",
+          "number": "4",
+          "pages": "87--96",
+          "year": "2009",
+          "publisher": "Sobolev Institute of Mathematics of the Siberian Branch of the Russian Academy of Sciences",
+          "ENTRYTYPE": "article",
+          "ID": "skums2009reconstruction"
         }
       ],
       "comments": [
@@ -342,6 +437,38 @@
           "link": "https://doi.org/10.1017/CBO9780511623646",
           "ENTRYTYPE": "book",
           "ID": "MR1066460"
+        },
+        {
+          "title": "On-line and first-fit coloring of graphs that do not induce P\\_5",
+          "author": "Kierstead, Henry A and Penrice, Stephen G and Trotter, William T",
+          "journal": "SIAM Journal on Discrete Mathematics",
+          "volume": "8",
+          "number": "4",
+          "pages": "485--498",
+          "year": "1995",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "kierstead1995line"
+        },
+        {
+          "title": "On 3-colorable p\\_5-free graphs",
+          "author": "Maffray, Fr{\\'e}d{\\'e}ric and Morel, Gr{\\'e}gory",
+          "journal": "SIAM Journal on Discrete Mathematics",
+          "volume": "26",
+          "number": "4",
+          "pages": "1682--1708",
+          "year": "2012",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "maffray20123"
+        },
+        {
+          "title": "Weighted Efficient Domination for $ P\\_5 $-Free Graphs in Linear Time",
+          "author": "Brandstadt, Andreas",
+          "journal": "arXiv preprint arXiv:1507.06765",
+          "year": "2015",
+          "ENTRYTYPE": "article",
+          "ID": "brandstadt2015weighted"
         }
       ],
       "comments": [
@@ -551,6 +678,34 @@
           "mrnumber": "3701437",
           "ENTRYTYPE": "incollection",
           "ID": "MR3701437"
+        },
+        {
+          "title": "Counting spanning trees in prism and anti-prism graphs",
+          "author": "Sun, Weigang and Wang, Shuai and Zhang, Jingyuan",
+          "journal": "J. Appl. Anal. Comput",
+          "volume": "6",
+          "pages": "65--75",
+          "year": "2016",
+          "ENTRYTYPE": "article",
+          "ID": "sun2016counting"
+        },
+        {
+          "title": "Graphs, graph polynomials with applications to antiprisms",
+          "author": "Bukasa, Deborah Kembia",
+          "year": "2014",
+          "ENTRYTYPE": "article",
+          "ID": "bukasa2014graphs"
+        },
+        {
+          "title": "Transitive graphs with fewer than twenty vertices",
+          "author": "McKay, Brendan D",
+          "journal": "Mathematics of Computation",
+          "volume": "33",
+          "number": "147",
+          "pages": "1101--1121",
+          "year": "1979",
+          "ENTRYTYPE": "article",
+          "ID": "mckay1979transitive"
         }
       ],
       "comments": [
@@ -636,6 +791,41 @@
           "link": "https://doi.org/10.2307/2324718",
           "ENTRYTYPE": "article",
           "ID": "MR1019150"
+        },
+        {
+          "title": "Upper and lower bounds for the additive degree-Kirchhoff index",
+          "author": "Palacios, Jos{\\'e} Luis",
+          "journal": "MATCH Commun. Math. Comput. Chem",
+          "volume": "70",
+          "number": "2",
+          "pages": "651--655",
+          "year": "2013",
+          "ENTRYTYPE": "article",
+          "ID": "palacios2013upper"
+        },
+        {
+          "title": "Minimizing effective resistance of a graph",
+          "author": "Ghosh, Arpita and Boyd, Stephen and Saberi, Amin",
+          "journal": "SIAM review",
+          "volume": "50",
+          "number": "1",
+          "pages": "37--66",
+          "year": "2008",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "ghosh2008minimizing"
+        },
+        {
+          "title": "Discrete non-commutative integrability: proof of a conjecture by M. Kontsevich",
+          "author": "Di Francesco, Philippe and Kedem, Rinat",
+          "journal": "International Mathematics Research Notices",
+          "volume": "2010",
+          "number": "21",
+          "pages": "4042--4063",
+          "year": "2010",
+          "publisher": "Oxford University Press",
+          "ENTRYTYPE": "article",
+          "ID": "di2010discrete"
         }
       ],
       "comments": [
@@ -817,6 +1007,41 @@
           "link": "https://doi.org/10.1090/S0002-9904-1950-09407-5",
           "ENTRYTYPE": "article",
           "ID": "MR0038078"
+        },
+        {
+          "title": "Desargues' and Pappus' graphs and their groups",
+          "author": "Kagno, IN",
+          "journal": "American Journal of Mathematics",
+          "volume": "69",
+          "number": "4",
+          "pages": "859--862",
+          "year": "1947",
+          "publisher": "JSTOR",
+          "ENTRYTYPE": "article",
+          "ID": "kagno1947desargues"
+        },
+        {
+          "title": "On the groups of repeated graphs",
+          "author": "Frucht, Robert",
+          "journal": "Bulletin of the American Mathematical Society",
+          "volume": "55",
+          "number": "4",
+          "pages": "418--420",
+          "year": "1949",
+          "ENTRYTYPE": "article",
+          "ID": "frucht1949groups"
+        },
+        {
+          "title": "A report on stable graphs",
+          "author": "Holton, DA",
+          "journal": "Journal of the Australian Mathematical Society",
+          "volume": "15",
+          "number": "2",
+          "pages": "163--171",
+          "year": "1973",
+          "publisher": "Cambridge University Press",
+          "ENTRYTYPE": "article",
+          "ID": "holton1973report"
         }
       ],
       "comments": [
@@ -917,6 +1142,16 @@
           "mrreviewer": "Vitus J. Leung",
           "ENTRYTYPE": "article",
           "ID": "MR2460558"
+        },
+        {
+          "title": "Skeleton Graph Generation for Feature Shape Description.",
+          "author": "Reinders, Freek and Jacobson, Melvin ED and Post, Frits H",
+          "booktitle": "VisSym",
+          "pages": "73--82",
+          "year": "2000",
+          "organization": "Springer",
+          "ENTRYTYPE": "inproceedings",
+          "ID": "reinders2000skeleton"
         }
       ],
       "comments": [
@@ -1032,6 +1267,18 @@
           "link": "https://doi.org/10.1002/net.3230040407",
           "ENTRYTYPE": "article",
           "ID": "MR0376439"
+        },
+        {
+          "title": "Restricted circular-arc graphs and clique cycles",
+          "author": "McKee, Terry A",
+          "journal": "Discrete mathematics",
+          "volume": "263",
+          "number": "1-3",
+          "pages": "221--231",
+          "year": "2003",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "mckee2003restricted"
         }
       ],
       "comments": [
@@ -1103,6 +1350,39 @@
           "link": "https://doi.org/10.1016/0012-365X(78)90178-4",
           "ENTRYTYPE": "article",
           "ID": "MR522739"
+        },
+        {
+          "title": "$ C\\_4 $-saturated graphs of minimum size",
+          "author": "Tuza, Zsolt",
+          "journal": "Acta Universitatis Carolinae. Mathematica et Physica",
+          "volume": "30",
+          "number": "2",
+          "pages": "161--167",
+          "year": "1989",
+          "publisher": "Charles University in Prague",
+          "ENTRYTYPE": "article",
+          "ID": "tuza1989c_4"
+        },
+        {
+          "title": "A Computational approach for the Ramsey numbers R (C\\_4, K\\_n)",
+          "author": "Radziszowski, Stanislaw and Tse, Kung-Kuen",
+          "journal": "The Charles Babbage Research Centre: The Journal of Combinatorial Mathematics",
+          "volume": "42",
+          "year": "2002",
+          "ENTRYTYPE": "article",
+          "ID": "radziszowski2002computational"
+        },
+        {
+          "title": "Recognition of C\\_4-Free and 1/2-Hyperbolic Graphs",
+          "author": "Coudert, David and Ducoffe, Guillaume",
+          "journal": "SIAM Journal on Discrete Mathematics",
+          "volume": "28",
+          "number": "3",
+          "pages": "1601--1617",
+          "year": "2014",
+          "publisher": "SIAM",
+          "ENTRYTYPE": "article",
+          "ID": "coudert2014recognition"
         }
       ],
       "comments": [
@@ -1236,6 +1516,30 @@
           "link": "https://doi.org/10.1016/S0196-8858(03)00088-5",
           "ENTRYTYPE": "article",
           "ID": "MR2037635"
+        },
+        {
+          "title": "Amplitude Bounds in the Ladder Graph Approximation",
+          "author": "Tiktopoulos, George and Treiman, SB",
+          "journal": "Physical Review",
+          "volume": "135",
+          "number": "3B",
+          "pages": "B711",
+          "year": "1964",
+          "publisher": "APS",
+          "ENTRYTYPE": "article",
+          "ID": "tiktopoulos1964amplitude"
+        },
+        {
+          "title": "Ladder-Graph Approximation in Positron Annihilation",
+          "author": "Arponen, Jouko and Jauho, Pekka",
+          "journal": "Physical Review",
+          "volume": "167",
+          "number": "2",
+          "pages": "239",
+          "year": "1968",
+          "publisher": "APS",
+          "ENTRYTYPE": "article",
+          "ID": "arponen1968ladder"
         }
       ],
       "comments": [
@@ -1705,6 +2009,41 @@
           "link": "https://doi.org/10.1006/jagm.1996.0806",
           "ENTRYTYPE": "article",
           "ID": "MR1441972"
+        },
+        {
+          "title": "The graph of the truncated icosahedron and the last letter of Galois",
+          "author": "Kostant, Bertram",
+          "journal": "Notices of the AMS",
+          "volume": "42",
+          "number": "9",
+          "pages": "959--968",
+          "year": "1995",
+          "ENTRYTYPE": "article",
+          "ID": "kostant1995graph"
+        },
+        {
+          "title": "Static and dynamic characterization of regular truncated icosahedral and dodecahedral tensegrity modules",
+          "author": "Murakami, Hidenori and Nishimura, Yoshitaka",
+          "journal": "International Journal of Solids and Structures",
+          "volume": "38",
+          "number": "50",
+          "pages": "9359--9381",
+          "year": "2001",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "murakami2001static"
+        },
+        {
+          "title": "Resistance distances in fullerene graphs",
+          "author": "Fotuler, Patrick W",
+          "journal": "Croatica chemica acta",
+          "volume": "75",
+          "number": "2",
+          "pages": "401--408",
+          "year": "2002",
+          "publisher": "Hrvatsko kemijsko dru{\\v{s}}tvo",
+          "ENTRYTYPE": "article",
+          "ID": "fotuler2002resistance"
         }
       ],
       "comments": [
@@ -1896,6 +2235,42 @@
           "mrreviewer": "Ortrud R. Oellermann",
           "ENTRYTYPE": "book",
           "ID": "MR1262129"
+        },
+        {
+          "title": "The regular matroids with no 5-wheel minor",
+          "author": "Oxley, James G",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "46",
+          "number": "3",
+          "pages": "292--305",
+          "year": "1989",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "oxley1989regular"
+        },
+        {
+          "title": "Circle graph obstructions",
+          "author": "Bouchet, Andr{\\'e}",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "60",
+          "number": "1",
+          "pages": "107--144",
+          "year": "1994",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "bouchet1994circle"
+        },
+        {
+          "title": "On the cut polytope",
+          "author": "Barahona, Francisco and Mahjoub, Ali Ridha",
+          "journal": "Mathematical programming",
+          "volume": "36",
+          "number": "2",
+          "pages": "157--173",
+          "year": "1986",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "barahona1986cut"
         }
       ],
       "comments": [
@@ -2173,6 +2548,15 @@
           "year": "2016",
           "ENTRYTYPE": "article",
           "ID": "ellingham2016hamiltonicity"
+        },
+        {
+          "title": "The combinatorics of network reliability",
+          "author": "Colbourn, Charles J and Colbourn, CJ",
+          "volume": "200",
+          "year": "1987",
+          "publisher": "Oxford University Press New York",
+          "ENTRYTYPE": "book",
+          "ID": "colbourn1987combinatorics"
         }
       ],
       "comments": [
@@ -2297,6 +2681,18 @@
           "year": "1828",
           "ENTRYTYPE": "article",
           "ID": "steiner1828probleme"
+        },
+        {
+          "title": "Hexahedral mesh generation by successive dual cycle elimination",
+          "author": "M{\\\"u}ller--Hannemann, Matthias",
+          "journal": "Engineering with Computers",
+          "volume": "15",
+          "number": "3",
+          "pages": "269--279",
+          "year": "1999",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "muller1999hexahedral"
         }
       ],
       "comments": [
@@ -2414,7 +2810,7 @@
       ],
       "refs": [
         {
-          "title": "Sir Wm. HamiltonÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢s icosian game",
+          "title": "Sir Wm. HamiltonÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢s icosian game",
           "author": "Herschel, AS",
           "journal": "Quart. J. Pure Applied Math",
           "volume": "5",
@@ -2537,6 +2933,41 @@
           "year": "2016",
           "ENTRYTYPE": "article",
           "ID": "kong2016signless"
+        },
+        {
+          "title": "Every 4-regular graph plus an edge contains a 3-regular subgraph",
+          "author": "Alon, Noga and Friedland, Shmuel and Kalai, Gil",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "37",
+          "number": "1",
+          "pages": "92--93",
+          "year": "1984",
+          "publisher": "Academic Press",
+          "ENTRYTYPE": "article",
+          "ID": "alon1984every"
+        },
+        {
+          "title": "Longest cycles in 3-connected 3-regular graphs",
+          "author": "Bondy, JA and Simonovits, M",
+          "journal": "Canad. J. Math",
+          "volume": "32",
+          "number": "4",
+          "pages": "987--992",
+          "year": "1980",
+          "ENTRYTYPE": "article",
+          "ID": "bondy1980longest"
+        },
+        {
+          "title": "Maximum genus and maximum nonseparating independent set of a 3-regular graph",
+          "author": "Huang, Yuangqiu and Liu, Yanpei",
+          "journal": "Discrete Mathematics",
+          "volume": "176",
+          "number": "1-3",
+          "pages": "149--158",
+          "year": "1997",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "huang1997maximum"
         }
       ],
       "comments": [],
@@ -2627,6 +3058,41 @@
           "year": "2016",
           "ENTRYTYPE": "article",
           "ID": "kong2016signless"
+        },
+        {
+          "title": "Every 4-regular graph plus an edge contains a 3-regular subgraph",
+          "author": "Alon, Noga and Friedland, Shmuel and Kalai, Gil",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "37",
+          "number": "1",
+          "pages": "92--93",
+          "year": "1984",
+          "publisher": "Academic Press",
+          "ENTRYTYPE": "article",
+          "ID": "alon1984every"
+        },
+        {
+          "title": "Longest cycles in 3-connected 3-regular graphs",
+          "author": "Bondy, JA and Simonovits, M",
+          "journal": "Canad. J. Math",
+          "volume": "32",
+          "number": "4",
+          "pages": "987--992",
+          "year": "1980",
+          "ENTRYTYPE": "article",
+          "ID": "bondy1980longest"
+        },
+        {
+          "title": "Maximum genus and maximum nonseparating independent set of a 3-regular graph",
+          "author": "Huang, Yuangqiu and Liu, Yanpei",
+          "journal": "Discrete Mathematics",
+          "volume": "176",
+          "number": "1-3",
+          "pages": "149--158",
+          "year": "1997",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "huang1997maximum"
         }
       ],
       "comments": [],
@@ -2686,7 +3152,44 @@
           "url": "https://en.wikipedia.org/wiki/Cycle_graph"
         }
       ],
-      "refs": [],
+      "refs": [
+        {
+          "title": "On approximating the longest path in a graph",
+          "author": "Karger, David and Motwani, Rajeev and Ramkumar, GDS",
+          "journal": "Algorithmica",
+          "volume": "18",
+          "number": "1",
+          "pages": "82--98",
+          "year": "1997",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "karger1997approximating"
+        },
+        {
+          "title": "3-list-coloring planar graphs of girth 5",
+          "author": "Thomassen, Carsten",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "64",
+          "number": "1",
+          "pages": "101--107",
+          "year": "1995",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "thomassen19953"
+        },
+        {
+          "title": "A characterization of distance-hereditary graphs",
+          "author": "Howorka, Edward",
+          "journal": "The quarterly journal of mathematics",
+          "volume": "28",
+          "number": "4",
+          "pages": "417--420",
+          "year": "1977",
+          "publisher": "Oxford University Press",
+          "ENTRYTYPE": "article",
+          "ID": "howorka1977characterization"
+        }
+      ],
       "comments": [],
       "contrib": [
         {
@@ -2784,7 +3287,40 @@
           "url": "https://pubchem.ncbi.nlm.nih.gov/compound/isobutane"
         }
       ],
-      "refs": [],
+      "refs": [
+        {
+          "title": "Calculation of linear temperature programmed capillary gas chromatographic retention indexes of polycyclic aromatic compounds",
+          "author": "Whalen-Pedersen, Erik K and Jurs, Peter C",
+          "journal": "Analytical Chemistry",
+          "volume": "53",
+          "number": "14",
+          "pages": "2184--2187",
+          "year": "1981",
+          "publisher": "ACS Publications",
+          "ENTRYTYPE": "article",
+          "ID": "whalen1981calculation"
+        },
+        {
+          "title": "Computer-assisted prediction of liquid chromatographic retention indexes of polycyclic aromatic hydrocarbons",
+          "author": "Hasan, Mohamed Noor and Jurs, Peter C",
+          "journal": "Analytical Chemistry",
+          "volume": "55",
+          "number": "2",
+          "pages": "263--269",
+          "year": "1983",
+          "publisher": "ACS Publications",
+          "ENTRYTYPE": "article",
+          "ID": "hasan1983computer"
+        },
+        {
+          "title": "Graph theory and its applications",
+          "author": "Gross, Jonathan L and Yellen, Jay",
+          "year": "2005",
+          "publisher": "CRC press",
+          "ENTRYTYPE": "book",
+          "ID": "gross2005graph"
+        }
+      ],
       "comments": [
         "connected forest",
         "tree graph",
@@ -3014,6 +3550,40 @@
           "link": "https://doi.org/10.4169/amer.math.monthly.124.9.827",
           "ENTRYTYPE": "article",
           "ID": "MR3722040"
+        },
+        {
+          "title": "Permanents, Pfaffian orientations, and even directed circuits",
+          "author": "McCuaig, William and Robertson, Neil and Seymour, Paul D and Thomas, Robin",
+          "booktitle": "Proceedings of the twenty-ninth annual ACM symposium on Theory of computing",
+          "pages": "402--405",
+          "year": "1997",
+          "organization": "ACM",
+          "ENTRYTYPE": "inproceedings",
+          "ID": "mccuaig1997permanents"
+        },
+        {
+          "title": "Semisymmetry of generalized Folkman graphs",
+          "author": "Maru{\\v{s}}i{\\v{c}}, Dragan and Poto{\\v{c}}nik, Primo{\\v{z}}",
+          "journal": "European Journal of Combinatorics",
+          "volume": "22",
+          "number": "3",
+          "pages": "333--349",
+          "year": "2001",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "maruvsivc2001semisymmetry"
+        },
+        {
+          "title": "Edge-transitive regular Zn-covers of the Heawood graph",
+          "author": "Wang, Changqun and Hao, Yanhua",
+          "journal": "Discrete Mathematics",
+          "volume": "310",
+          "number": "12",
+          "pages": "1752--1758",
+          "year": "2010",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "wang2010edge"
         }
       ],
       "comments": [
@@ -3210,6 +3780,41 @@
           "link": "https://doi.org/10.2307/2371806",
           "ENTRYTYPE": "article",
           "ID": "MR0022338"
+        },
+        {
+          "title": "On trivalent graphs",
+          "author": "Biggs, NL and Smith, DH",
+          "journal": "Bulletin of the London Mathematical Society",
+          "volume": "3",
+          "number": "2",
+          "pages": "155--158",
+          "year": "1971",
+          "publisher": "Wiley Online Library",
+          "ENTRYTYPE": "article",
+          "ID": "biggs1971trivalent"
+        },
+        {
+          "title": "There are exactly 13 connected, cubic, integral graphs",
+          "author": "Bussemaker, FC and Cvetkovi{\\'c}, DM",
+          "journal": "Publikacije Elektrotehni{\\v{c}}kog fakulteta. Serija Matematika i fizika",
+          "number": "544/576",
+          "pages": "43--48",
+          "year": "1976",
+          "publisher": "JSTOR",
+          "ENTRYTYPE": "article",
+          "ID": "bussemaker1976there"
+        },
+        {
+          "title": "Spectral characterizations of some distance-regular graphs",
+          "author": "Van Dam, Edwin R and Haemers, Willem H",
+          "journal": "Journal of Algebraic Combinatorics",
+          "volume": "15",
+          "number": "2",
+          "pages": "189--202",
+          "year": "2002",
+          "publisher": "Springer US",
+          "ENTRYTYPE": "article",
+          "ID": "van2002spectral"
         }
       ],
       "comments": [
@@ -3679,6 +4284,38 @@
           "mrreviewer": "Nickolas Jason Hein",
           "ENTRYTYPE": "inproceedings",
           "ID": "MR3470857"
+        },
+        {
+          "title": "KP solitons, total positivity, and cluster algebras",
+          "author": "Kodama, Yuji and Williams, Lauren K",
+          "journal": "Proceedings of the National Academy of Sciences",
+          "volume": "108",
+          "number": "22",
+          "pages": "8984--8989",
+          "year": "2011",
+          "publisher": "National Acad Sciences",
+          "ENTRYTYPE": "article",
+          "ID": "kodama2011kp"
+        },
+        {
+          "title": "Weak separation and plabic graphs",
+          "author": "Oh, Suho and Postnikov, Alexander and Speyer, David E",
+          "journal": "Proceedings of the London Mathematical Society",
+          "volume": "110",
+          "number": "3",
+          "pages": "721--754",
+          "year": "2015",
+          "publisher": "Oxford University Press",
+          "ENTRYTYPE": "article",
+          "ID": "oh2015weak"
+        },
+        {
+          "title": "Positroids, Plabic Graphs, and Scattering Amplitudes in Mathematica",
+          "author": "Bourjaily, Jacob L",
+          "journal": "arXiv preprint arXiv:1212.6974",
+          "year": "2012",
+          "ENTRYTYPE": "article",
+          "ID": "bourjaily2012positroids"
         }
       ],
       "comments": [
@@ -4017,7 +4654,39 @@
           "url": "https://en.wikipedia.org/wiki/Cycle_graph"
         }
       ],
-      "refs": [],
+      "refs": [
+        {
+          "title": "The maximum size of 4-and 6-cycle free bipartite graphs on m, n vertices",
+          "author": "De Caen, D and Sz{\\'e}kely, L{\\'a}szl{\\'o} A",
+          "year": "1991",
+          "publisher": "Rheinische Friedrich-Wilhelms-Universit{\\\"a}t",
+          "ENTRYTYPE": "book",
+          "ID": "de1991maximum"
+        },
+        {
+          "title": "The spectrum for 2-perfect 6-cycle systems",
+          "author": "Lindner, Charles Curtis and Phelps, Kevin T and Rodger, Christopher A",
+          "journal": "Journal of Combinatorial Theory, Series A",
+          "volume": "57",
+          "number": "1",
+          "pages": "76--85",
+          "year": "1991",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "lindner1991spectrum"
+        },
+        {
+          "title": "Upper bounds on the size of 4-and 6-cycle-free subgraphs of the hypercube",
+          "author": "Balogh, J{\\'o}zsef and Hu, Ping and Lidick{\\`y}, Bernard and Liu, Hong",
+          "journal": "European Journal of Combinatorics",
+          "volume": "35",
+          "pages": "75--85",
+          "year": "2014",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "balogh2014upper"
+        }
+      ],
       "comments": [],
       "contrib": [
         {
@@ -4105,6 +4774,28 @@
           "link": "https://doi.org/10.1016/0012-365X(79)90060-8",
           "ENTRYTYPE": "article",
           "ID": "MR535083"
+        },
+        {
+          "title": "Stable sets for $(P₆, K\\_ $\\{$2, 3$\\}$) $-free graphs",
+          "author": "Mosca, Raffaele",
+          "journal": "Discussiones Mathematicae Graph Theory",
+          "volume": "32",
+          "number": "3",
+          "pages": "387--401",
+          "year": "2012",
+          "publisher": "De Gruyter Open",
+          "ENTRYTYPE": "article",
+          "ID": "mosca2012stable"
+        },
+        {
+          "title": "On the crossing numbers of K\\_ (2, 3)∨ C\\_n [J]",
+          "author": "Xiu-hua, YUAN",
+          "journal": "Journal of East China Normal University (Natural Science)",
+          "volume": "5",
+          "pages": "006",
+          "year": "2011",
+          "ENTRYTYPE": "article",
+          "ID": "xiu2011crossing"
         }
       ],
       "comments": [
@@ -4613,6 +5304,42 @@
           "link": "https://doi.org/10.1088/0264-9381/24/8/007",
           "ENTRYTYPE": "article",
           "ID": "MR2311457"
+        },
+        {
+          "title": "A neural-network algorithm for a graph layout problem",
+          "author": "Cimikowski, A and Shope, Paul",
+          "journal": "IEEE Transactions on Neural Networks",
+          "volume": "7",
+          "number": "2",
+          "pages": "341--345",
+          "year": "1996",
+          "publisher": "IEEE",
+          "ENTRYTYPE": "article",
+          "ID": "cimikowski1996neural"
+        },
+        {
+          "title": "K 6-minors in projective planar graphs",
+          "author": "Fijav{\\v{z}}*, Ga{\\v{s}}per and Mohar*, Bojan",
+          "journal": "Combinatorica",
+          "volume": "23",
+          "number": "3",
+          "pages": "453--465",
+          "year": "2003",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "fijavvz2003k"
+        },
+        {
+          "title": "On the number of crossings in a complete graph",
+          "author": "Harary, Frank and Hill, Anthony",
+          "journal": "Proceedings of the Edinburgh Mathematical Society",
+          "volume": "13",
+          "number": "4",
+          "pages": "333--338",
+          "year": "1963",
+          "publisher": "Cambridge University Press",
+          "ENTRYTYPE": "article",
+          "ID": "harary1963number"
         }
       ],
       "comments": [],
@@ -4837,6 +5564,40 @@
           "publisher": "Kyoto University",
           "ENTRYTYPE": "article",
           "ID": "cinkir2014explicit"
+        },
+        {
+          "title": "THE INDEPENDENCE NUMBER OF CONNECTED (claw, $ K\\_4 $)-FREE 4-REGULAR GRAPHS",
+          "author": "Shan, Erfang and Kang, Liying and Wang, Dingguo and others",
+          "journal": "Taiwanese Journal of Mathematics",
+          "volume": "17",
+          "number": "1",
+          "pages": "275--585",
+          "year": "2013",
+          "publisher": "The Mathematical Society of the Republic of China",
+          "ENTRYTYPE": "article",
+          "ID": "shan2013independence"
+        },
+        {
+          "title": "The Edge Coloring of the Complete Graph Satisfying the Five-Color K\\_4 Condition [J]",
+          "author": "Ming-yuan, TANG",
+          "journal": "Journal of Shanghai Teachers University",
+          "volume": "3",
+          "pages": "005",
+          "year": "2003",
+          "ENTRYTYPE": "article",
+          "ID": "ming2003edge"
+        },
+        {
+          "title": "A note on the inducibility of 4-vertex graphs",
+          "author": "Even-Zohar, Chaim and Linial, Nati",
+          "journal": "Graphs and Combinatorics",
+          "volume": "31",
+          "number": "5",
+          "pages": "1367--1380",
+          "year": "2015",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "even2015note"
         }
       ],
       "comments": [],
@@ -5089,6 +5850,42 @@
           "link": "https://doi.org/10.1090/S0002-9904-1950-09407-5",
           "ENTRYTYPE": "article",
           "ID": "MR0038078"
+        },
+        {
+          "title": "The Tur{\\'a}n number of the Fano plane",
+          "author": "Keevash, Peter and Sudakov, Benny",
+          "journal": "Combinatorica",
+          "volume": "25",
+          "number": "5",
+          "pages": "561--574",
+          "year": "2005",
+          "publisher": "Springer",
+          "ENTRYTYPE": "article",
+          "ID": "keevash2005turan"
+        },
+        {
+          "title": "The maximum size of 3-uniform hypergraphs not containing a Fano plane",
+          "author": "De Caen, Dominique and F{\\\"u}redi, Zolt{\\'a}n",
+          "journal": "Journal of Combinatorial Theory, Series B",
+          "volume": "78",
+          "number": "2",
+          "pages": "274--276",
+          "year": "2000",
+          "publisher": "Elsevier",
+          "ENTRYTYPE": "article",
+          "ID": "de2000maximum"
+        },
+        {
+          "title": "Strings, black holes, the tripartite entanglement of seven qubits, and the Fano plane",
+          "author": "L{\\'e}vay, P{\\'e}ter",
+          "journal": "Physical Review D",
+          "volume": "75",
+          "number": "2",
+          "pages": "024024",
+          "year": "2007",
+          "publisher": "APS",
+          "ENTRYTYPE": "article",
+          "ID": "levay2007strings"
         }
       ],
       "comments": [
@@ -6675,6 +7472,16 @@
           "year": "2014",
           "ENTRYTYPE": "article",
           "ID": "robertson2014excluded"
+        },
+        {
+          "title": "Complexity of graph covering problems",
+          "author": "Kratochv{\\'\\i}l, Jan and Proskurowski, Andrzej and Telle, Jan Arne",
+          "booktitle": "International Workshop on Graph-Theoretic Concepts in Computer Science",
+          "pages": "93--105",
+          "year": "1994",
+          "organization": "Springer",
+          "ENTRYTYPE": "inproceedings",
+          "ID": "kratochvil1994complexity"
         }
       ],
       "comments": [
